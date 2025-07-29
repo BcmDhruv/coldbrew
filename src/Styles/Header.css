@@ -1,0 +1,126 @@
+.header {
+  background: url() no-repeat center;
+  background-size: cover;
+  padding: 1em 3em;
+  position: sticky; /* <--- make it sticky */
+  top: 0;            /* <--- stick it to top */
+  z-index: 1000;     /* <--- keep above other content */
+  background-color: #333333;
+}
+
+.about-header {
+  background: url() no-repeat center;
+  background-size: cover;
+  padding: 1em 3em;
+  position: sticky; /* <--- make it sticky */
+  top: 0;            /* <--- stick it to top */
+  z-index: 1000;     /* <--- keep above other content */
+  background-color: #A5A877;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 2em;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 15;
+}
+
+.hamburger svg {
+  height: 2.5em;
+  transition: transform 0.5s ease;
+}
+
+.line {
+  fill: none;
+  stroke: #f3854c;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;
+}
+
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+
+.hamburger.open svg {
+  transform: rotate(-45deg);
+}
+
+.hamburger.open .line-top-bottom {
+  stroke-dasharray: 20 300;
+  stroke-dashoffset: -32.42;
+}
+
+.menu-wrapper {
+  position: relative;
+}
+
+
+.dropdown {
+  position: absolute;
+  top: 4em;
+  right: 0;
+  background: url() no-repeat center;
+  background-color: #333333;
+  background-size: cover;
+  padding: 3em 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.dropdown.open {
+  opacity: 1;
+  transform: scaleY(1);
+  pointer-events: auto;
+}
+
+.dropdown ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 3em;
+}
+
+.dropdown .nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  transition: 0.2s ease;
+}
+
+.dropdown .nav-link:hover {
+  color: #f3854c;
+}
+
+.cta {
+  background-color: #f3854c;
+  color: white;
+  border: none;
+  padding: 1em 3em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cta:hover {
+  background-color: #e1703c;
+}

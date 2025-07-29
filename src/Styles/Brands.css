@@ -1,0 +1,128 @@
+/* Brands Section Starts */
+
+
+.brands {
+  width: 100%;
+  background-color: #3C221E;
+  background-image: url(/Filter1.png);
+  background-size: cover;
+  padding: 80px 0;
+}
+
+
+.brands-heading h1 {
+  font-family: "Open Sans", serif;
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 0.4em;
+  line-height: 3rem;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  color: #F4D8CD;
+}
+
+.brands-heading h1 span {
+  color: #D57E56;
+}
+
+.brands-heading h1::after {
+  content: '';
+  display: block;
+  height: 2px;
+  max-width: 20em;
+  background-color: #D57E56;
+  margin: 1em auto;
+}
+
+.brands-main {
+  margin: 7rem 0;
+}
+
+
+/* Outer container */
+.marquee-slider {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Marquee Track */
+.marquee-track {
+  display: flex;
+  gap: 20px; /* Space between images */
+  animation: scroll 15s linear infinite;
+  width: max-content; /* Allows infinite loop */
+}
+
+/* Black & White Filter */
+.marquee-track img {
+  filter: grayscale(0%);
+  transition: all 0.3s ease-in-out;
+  width: 250px; 
+}
+
+/* Show original color on hover */
+.marquee-track img:hover {
+  filter: grayscale(100%);
+}
+
+/* Stop on Hover */
+.marquee-slider:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* Continuous Marquee Animation */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+.brands-kpi {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.stat-box {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #c9b89e; 
+}
+
+.stat-box img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+  opacity: 0.6;
+}
+
+.stat-box h3 {
+  font-size: 1rem;
+  color: #fff; 
+  margin-bottom: 5px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.stat-box p {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  color: #A5A877;
+}
+
+/* Brands Section Ends  */
+
+

@@ -1,0 +1,134 @@
+
+.contact-us {
+  height: 100vh;
+  width: 100%;
+  background: #F4D8CD;
+  background-image: url("/Filter1.png");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 3em;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+  color: #333;
+  text-align: left;
+}
+
+.contact-info h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #D57E56;
+  display: inline-block;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin: 1em 0;
+  line-height: 1.5;
+}
+
+.contact-info a {
+  color: #3E1F1B;
+  text-decoration: none;
+}
+
+.social-icons a {
+  font-size: 1.2rem;
+  color: #D57E56;
+  margin-right: 1em;
+}
+
+.contact-form {
+  flex: 1.5;
+  background: #3E1F1B;
+  color: white;
+  border-radius: 12px;
+  padding: 2em;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1em;
+}
+
+.form-row {
+  display: flex;
+  gap: 1em;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+.contact-form input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #888;
+  padding: 0.5em;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+}
+
+.contact-form input::placeholder,
+.contact-form option {
+  color: #bbb;
+}
+
+.checkbox-label {
+  font-weight: 600;
+  margin-top: 1em;
+}
+
+.checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  font-size: 0.95rem;
+}
+
+.checkboxes label {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.contact-form input[type="checkbox"] {
+  accent-color: #D57E56;
+  transform: scale(1.2);
+}
+
+.contact-form button {
+  margin-top: 1.5em;
+  background: transparent;
+  border: 1px solid #D57E56;
+  color: white;
+  padding: 0.75em 2em;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #D57E56;
+}
+
