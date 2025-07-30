@@ -6,7 +6,13 @@ function Hero() {
   return (
         <section className="hero">
         
-            <video autoPlay muted loop playsinline className="hero-video">
+            <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            controls={false}
+            className="hero-video">
                 <source src="/videos/hero.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
