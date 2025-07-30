@@ -18,7 +18,9 @@ const Header = () => {
   return (
     <header className={`header ${isAboutPage ? "about-header" : ""}`}>
       <div className="header-content">
-        <Link to="/"><img src="./coldbrew-logo.png" alt="Cold Brew Logo" className="logo" /></Link>
+        <Link to="/"><img
+        src={isAboutPage ? "/about-header-logo.png" : "/coldbrew-logo.png"}
+        alt="Cold Brew Logo" className="logo" /></Link>
         
 
         <button

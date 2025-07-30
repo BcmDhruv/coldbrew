@@ -90,10 +90,13 @@
 }
 @media (max-width: 480px) {
   .circle {
-    width: 140px;
-    height: 140px;
+    width: 260px;
+    height: 260px;
     font-size: 0.7rem;
     border: 0.6em solid #3E1F1B;
+  }
+  .row {
+    flex-direction: column;
   }
 
   .services-heading h1 {
@@ -143,6 +146,17 @@
 /* Stories Section Starts  */
 @media (max-width: 1024px){
 
+  .stories-section {
+  flex-direction: column;
+  gap: 2rem;
+  }
+  .stories-right {
+    align-items: center;
+    width: 100%;
+  }
+  .stories-left {
+    width: 100%;
+}
   .stories-heading h1 {
     font-size: 2rem;
     letter-spacing: 0.2em;
@@ -164,6 +178,15 @@
   .stories-heading h1 {
     font-size: 1.4rem;
     letter-spacing: 0.1em;
+  }
+
+  .stories-right p {
+    display: none;
+  }
+
+  .stories-cta {
+    font-size: 0.8em;
+    font-weight: 600;
   }
 
 }
@@ -282,7 +305,9 @@
 
 }
 @media (max-width: 480px){
-
+  .casestudy {
+    height: auto;
+  }
   .casestudy-heading h1 {
     font-size: 1.4rem;
     letter-spacing: 0.1em;

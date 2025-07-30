@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutUs from '../Components/aboutUs'
+import AboutUs from '../Components/AboutUs'
 import Stories from '../Components/Stories'
 import Team from '../Components/Team'
 

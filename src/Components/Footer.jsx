@@ -1,13 +1,18 @@
 import React from 'react'
+import { useLocation } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import "../Styles/Footer.css"
 
 const Footer = () => {
+  const location = useLocation();
+  const isAboutPage = location.pathname === "/about";
   return (
-    <footer className="footer">
+    <footer className={`footer ${isAboutPage ? "about-footer" : ""}`}>
       <div className="footer-top">
         <div className="logo-col">
-          <img src="/footer-logo.png" alt="Cold Brew Studio Logo" className="footer-logo" />
+          <img 
+          src={isAboutPage ? "/about-footer-logo.png" : "/footer-logo.png"}
+          alt="Cold Brew Studio Logo" className="footer-logo" />
         </div>
 
         <div className="footer-links">
