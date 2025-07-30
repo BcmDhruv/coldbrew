@@ -132,3 +132,30 @@
   background: #D57E56;
 }
 
+
+/* new css */
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: #ff6b6b;
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+
+.feedback-container {
+  text-align: center;
+}
+
+.feedback-container img {
+  width: 100%;
+  height: auto;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}

@@ -1,10 +1,12 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { useNavigate } from "react-router-dom";
 import "../Styles/ContactUs.css"
 import emailjs from 'emailjs-com';
 
 
 const ContactUs = () => {
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -12,31 +14,51 @@ const ContactUs = () => {
     formState: { errors }
   } = useForm();
 
+  const [showSuccess, setShowSuccess] = React.useState(false);
+  const [showError, setShowError] = React.useState(false);
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
+
+  const handleGifComplete = () => {
+    setShowSuccess(false);
+    setShowError(false);
+    reset();
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+
+
   const onSubmit = (data) => {
+    setIsSubmitting(true);
     const templateParams = {
       firstName: data.firstName,
       lastName: data.lastName,
       email: data.email,
-      interests: data.interests || [] // array of interests
+      interests: data.interests || []
     };
 
     emailjs.send(
-      'service_7su47ay',     // 🔁 replace with your actual EmailJS Service ID
-      'template_c3pnmt9',    // 🔁 replace with your actual Template ID
+      'service_7su47ay',
+      'template_c3pnmt9',
       templateParams,
-      'gz7tVuaStfxhLphul'      // 🔁 replace with your actual Public Key
+      'gz7tVuaStfxhLphul'
     ).then(
       (response) => {
         console.log('SUCCESS!', response.status, response.text);
-        alert("Thank you! Your message has been sent.");
-        reset(); // clear form
+        setShowSuccess(true);
       },
       (err) => {
         console.error('FAILED...', err);
-        alert("Oops! Something went wrong. Please try again.");
+        setShowError(true);
       }
-    );
+    ).finally(() => {
+      setIsSubmitting(false);
+      setTimeout(handleGifComplete, 3000); // 3s for GIF
+    });
   };
+
 
 
   return (
@@ -58,37 +80,66 @@ const ContactUs = () => {
         </div>
 
         <div className="contact-form">
-          <form onSubmit={handleSubmit(onSubmit)}>
-            <div className="form-row">
-              <input
-                type="text"
-                placeholder="First Name*"
-                {...register("firstName", { required: true })}
-              />
-              <input
-                type="text"
-                placeholder="Last Name*"
-                {...register("lastName", { required: true })}
-              />
+          {showSuccess ? (
+            <div className="feedback-container">
+              <img src="/Thank you-white.gif" alt="Success" onLoad={() => setTimeout(handleGifComplete, 3000)} />
             </div>
-            <input
-              type="email"
-              placeholder="Your Email*"
-              {...register("email", { required: true })}
-            />
-
-            <label className="checkbox-label">Tell us what you’re interested in:</label>
-            <div className="checkboxes">
-              <label><input type="checkbox" value="Creative Content" {...register("interests")} /> Creative Content</label>
-              <label><input type="checkbox" value="Social Media Strategy" {...register("interests")} /> Social Media Strategy</label>
-              <label><input type="checkbox" value="Motion Graphics" {...register("interests")} /> Motion Graphics</label>
-              <label><input type="checkbox" value="Performance Ad Creatives" {...register("interests")} /> Performance Ad Creatives</label>
-              <label><input type="checkbox" value="Other Services" {...register("interests")} /> Other Services</label>
+          ) : showError ? (
+            <div className="feedback-container">
+              <img src="/error.gif" alt="Error" onAnimationEnd={handleGifComplete} />
             </div>
+          ) : (
+            <form onSubmit={handleSubmit(onSubmit)}>
+              <div className="form-row">
+                <div className="input-group">
+                  <input
+                    type="text"
+                    placeholder="First Name*"
+                    {...register("firstName", { required: "First name is required" })}
+                  />
+                  {errors.firstName && <span className="error">{errors.firstName.message}</span>}
+                </div>
+                <div className="input-group">
+                  <input
+                    type="text"
+                    placeholder="Last Name*"
+                    {...register("lastName", { required: "Last name is required" })}
+                  />
+                  {errors.lastName && <span className="error">{errors.lastName.message}</span>}
+                </div>
+              </div>
 
-            <button type="submit">Send</button>
-          </form>
+              <div className="input-group">
+                <input
+                  type="email"
+                  placeholder="Your Email*"
+                  {...register("email", {
+                    required: "Email is required",
+                    pattern: {
+                      value: /^\S+@\S+$/i,
+                      message: "Invalid email format",
+                    },
+                  })}
+                />
+                {errors.email && <span className="error">{errors.email.message}</span>}
+              </div>
+
+              <label className="checkbox-label">Tell us what you’re interested in:</label>
+              <div className="checkboxes">
+                <label><input type="checkbox" value="Creative Content" {...register("interests")} /> Creative Content</label>
+                <label><input type="checkbox" value="Social Media Strategy" {...register("interests")} /> Social Media Strategy</label>
+                <label><input type="checkbox" value="Motion Graphics" {...register("interests")} /> Motion Graphics</label>
+                <label><input type="checkbox" value="Performance Ad Creatives" {...register("interests")} /> Performance Ad Creatives</label>
+                <label><input type="checkbox" value="Other Services" {...register("interests")} /> Other Services</label>
+              </div>
+
+              <button type="submit" disabled={isSubmitting}>
+                {isSubmitting ? "Sending..." : "Send"}
+              </button>
+            </form>
+          )}
         </div>
+
       </div>
       </div>
     </section>
