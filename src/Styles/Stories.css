@@ -99,12 +99,13 @@
 
 
 .stories-right p{
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.3rem;
+    font-family: "OpenSansCondSemiBold", sans-serif;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 2em;
     letter-spacing: 5px;
     color: #444;
+    text-align: left;
 }
 
 .stories-cta {

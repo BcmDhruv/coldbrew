@@ -173,6 +173,10 @@
     width: 12em;
   }
 
+  .stories-right p {
+    text-align: center;
+  }
+
 }
 @media (max-width: 480px){
   .stories-heading h1 {
