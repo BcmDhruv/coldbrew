@@ -129,6 +129,7 @@
 @media (max-width: 768px) {
   .brands-heading h1 {
     font-size: 1.5rem;
+    letter-spacing: 0.4em;
   }
 
   .marquee-track img {
@@ -430,7 +431,7 @@
 @media (max-width: 1024px) {
   .hero-main h1 {
     font-size: 2.5rem;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.8rem;
     margin-bottom: 2.5em;
   }
 
@@ -448,7 +449,7 @@
 @media (max-width: 768px) {
   .hero-main h1 {
     font-size: 2rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.5rem;
     margin-bottom: 2em;
   }
 
@@ -460,6 +461,12 @@
   .hero-btn {
     padding: 10px 20px;
     font-size: 0.9rem;
+  }
+  .hero {
+    align-items: center;
+  }
+  .hero-main {
+    margin-bottom: 0;
   }
 }
 
