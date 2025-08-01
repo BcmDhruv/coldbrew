@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'OpenSansCondRegular';
-  src: url('/fonts/OpenSans_Condensed-Regular.woff2') format('truetype');
+  src: url('/fonts/OpenSans_Condensed-SemiBold.woff2') format('truetype');
   font-style: italic;
   font-weight: 300;
 }
