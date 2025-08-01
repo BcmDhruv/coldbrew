@@ -26,7 +26,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6); /* Controls darkness */
+  background-color: #303030; /* Controls darkness */
+  opacity: 80%;
   z-index: -1;
 }
 
@@ -41,8 +42,8 @@
 .hero-main h1 {
   font-family: "OpenSansCondSemiBold", sans-serif;
   font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 1.4rem;
+  font-size: 40px;
+  letter-spacing: 1.2rem;
   color: #fff;
   margin-bottom: 3em;
 }
@@ -51,7 +52,7 @@
   font-family: "OpenSansCondSemiBold", sans-serif;
   font-weight: 300;
   font-size: 1.4rem;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.6rem;
   color: #D57E56;
   margin: 1rem 0;
 }

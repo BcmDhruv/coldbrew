@@ -437,7 +437,7 @@
 
   .hero-main h3 {
     font-size: 1.1rem;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.5rem;
   }
 
   .hero-btn {
@@ -455,7 +455,7 @@
 
   .hero-main h3 {
     font-size: 1rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.25rem;
   }
 
   .hero-btn {
@@ -477,13 +477,13 @@
 
   .hero-main h1 {
     font-size: 1.5rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.3rem;
     margin-bottom: 1.5em;
   }
 
   .hero-main h3 {
     font-size: 0.9rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.2rem;
   }
 
   .hero-btn {
