@@ -19,9 +19,8 @@
   font-weight: 400;
   font-size: 3rem;
   letter-spacing: 0.2em;
-  line-height: 2em;
+  line-height: 2px;
   margin-bottom: 20px;
-  transform: scaleY(1.2);
   color: #3E1F1B;
   text-transform: uppercase;
   position: relative;
@@ -34,7 +33,7 @@
   height: 2px;
   max-width: 20em; /* change this to control line length */
   background-color: #D57E56;
-  margin: 1em auto ; /* space above + center */
+  margin: 1em auto 0.5em auto ; /* space above + center */
 }
 
 
