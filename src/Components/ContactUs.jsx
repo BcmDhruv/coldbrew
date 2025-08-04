@@ -21,7 +21,10 @@ const ContactUs = () => {
   const handleGifComplete = () => {
     setShowSuccess(false);
     setShowError(false);
+   // Delay reset() by 5 seconds
+    setTimeout(() => {
     reset();
+    }, 8000);
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -55,7 +58,7 @@ const ContactUs = () => {
       }
     ).finally(() => {
       setIsSubmitting(false);
-      setTimeout(handleGifComplete, 7000); // 3s for GIF
+      setTimeout(handleGifComplete, 3000); // 7s for GIF
     });
   };
 
