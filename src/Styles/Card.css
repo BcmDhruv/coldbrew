@@ -21,7 +21,11 @@
   flex-grow: 1;
 }
 
-/* Hover overlay */
+
+
+@media (min-width: 1024px) {
+
+  /* Hover overlay */
 .card-hover {
   position: absolute;
   bottom: -100%;
@@ -65,4 +69,6 @@
 .arrow {
   font-size: 2rem;
   color: #ca7c50;
+}
+
 }
