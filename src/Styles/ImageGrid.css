@@ -1,0 +1,24 @@
+.image-grid {
+    background-color: #F4D8CD;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-image: url(/Filter1.png);
+    background-size: cover;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+    gap: 20px;
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+@media (max-width: 768px) {
+  .img-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    padding: 0;
+  }
+}
