@@ -55,7 +55,7 @@ const ContactUs = () => {
       }
     ).finally(() => {
       setIsSubmitting(false);
-      setTimeout(handleGifComplete, 3000); // 3s for GIF
+      setTimeout(handleGifComplete, 7000); // 3s for GIF
     });
   };
 
