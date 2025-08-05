@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/csArks.css"
+import { Link } from 'react-router-dom'
 
 const CsArks = () => {
   return (
@@ -34,7 +35,9 @@ const CsArks = () => {
                         </div>
 
                         <div className="grid-button">
+                            <Link to='casestudies/arks-case-study'>
                             <button className="grid-btn">Explore</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
