@@ -574,6 +574,7 @@
 
   .footer-col {
     width: 100%;
+    min-width: 11em;
   }
 
   .footer-col ul li {
