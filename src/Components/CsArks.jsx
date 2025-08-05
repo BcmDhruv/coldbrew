@@ -35,7 +35,7 @@ const CsArks = () => {
                         </div>
 
                         <div className="grid-button">
-                            <Link to='casestudies/arks-case-study'>
+                            <Link to='/arks-case-study'>
                             <button className="grid-btn">Explore</button>
                             </Link>
                         </div>
