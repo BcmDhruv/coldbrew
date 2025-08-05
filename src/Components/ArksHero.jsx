@@ -7,7 +7,7 @@ const ArksHero = () => {
         <div className="container">
             <div className="hero-wrapper">
                 <div className="hero-image">
-
+                    <img src="/Arks/redcap.png" alt="" />
                 </div>
                 <div className="hero-kpis">
                     <div className="kpis-content">
@@ -16,8 +16,9 @@ const ArksHero = () => {
                             <div className="sectors">
                             <p>Sectors</p>
                             <span>E-commerce, Consumer</span>
-                            </div>
                             <hr />
+                            </div>
+                            
                             <div className="stats">
                             <div className="stat">
                                 <h2>30<span>%</span></h2>

@@ -17,11 +17,22 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 3rem;
 }
 
 
 .arkshero {
-  padding: 80px 0;
+  padding: 2.5rem 0;
+}
+
+.hero-image {
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
 }
 
 .kpis-content {
@@ -38,7 +49,7 @@
   text-align: left;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .kpis-left h1 {
