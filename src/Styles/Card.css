@@ -69,6 +69,7 @@
 .arrow {
   font-size: 2rem;
   color: #ca7c50;
+  cursor: pointer;
 }
 
 }

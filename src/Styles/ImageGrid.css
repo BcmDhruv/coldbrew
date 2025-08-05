@@ -22,3 +22,51 @@
     padding: 0;
   }
 }
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.modal-content h1 {
+  font-family: "OpenSansCondBold";
+  font-size: 3rem;
+  color: red;
+}
+
+.modal-image {
+  width: 50%;
+  height: 50%;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.close-btn {
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  background: white;
+  border: none;
+  font-size: 28px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 50%;
+}

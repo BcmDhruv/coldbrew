@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "./Card";
 import "../Styles/ImageGrid.css";
 
@@ -13,6 +13,8 @@ import img8 from "/Arks/arks8.png";
 import img9 from "/Arks/arks1.png";
 
 const ImageGrid = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+
   const cards = [
     { image: img1 },
     { image: img2 },
@@ -25,20 +27,37 @@ const ImageGrid = () => {
     { image: img9 },
   ];
 
+  const handleImageClick = (image) => {
+    setSelectedImage(image);
+  };
+
+  const closeModal = () => {
+    setSelectedImage(null);
+  };
+
   return (
     <section className="image-grid">
-        <div className="img-container">
-            {cards.map((card, index) => (
-            <Card
-                key={index}
-                image={card.image}
-                alt={`Card ${index + 1}`}
-                text={card.text}
-            />
-            ))}
-        </div>
-    </section>
+      <div className="img-container">
+        {cards.map((card, index) => (
+          <Card
+            key={index}
+            image={card.image}
+            alt={`Card ${index + 1}`}
+            onArrowClick={() => handleImageClick(card.image)}
+          />
+        ))}
+      </div>
 
+      {selectedImage && (
+        <div className="modal-overlay" onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-btn" onClick={closeModal}>×</button>
+            <img src={selectedImage} alt="Full View" className="modal-image" />
+            <h1>ARKS</h1>
+          </div>
+        </div>
+      )}
+    </section>
   );
 };
 

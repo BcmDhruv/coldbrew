@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Card.css";
 
-const Card = ({ image, alt }) => {
+const Card = ({ image, alt, onArrowClick }) => {
   return (
     <div className="card">
       <img src={image} alt={alt} className="card-image" />
@@ -11,7 +11,7 @@ const Card = ({ image, alt }) => {
             <h3>Check Out</h3>
             <p>Creative Ads</p>
           </div>
-          <div className="arrow">↗</div>
+          <div className="arrow" onClick={onArrowClick}>↗</div>
         </div>
       </div>
     </div>
