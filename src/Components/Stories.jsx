@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/Stories.css";
+import { Link } from 'react-router-dom';
 
 
 const Stories = () => {
@@ -16,7 +17,9 @@ const Stories = () => {
                     </div>
                     <div className="stories-right">
                         <p>With Stories that spark change and drive impact.</p>
+                        <Link to="/case-studies">
                         <button className="stories-cta">Explore Our Case Studies</button>
+                        </Link>
                     </div>
                 </div>
                 <div className="stories-section">
@@ -25,7 +28,9 @@ const Stories = () => {
                     </div>
                     <div className="stories-right">
                         <p>With narratives that teach, engage, and last.</p>
+                        <Link to="/case-studies">
                         <button className="stories-cta">Explore Our Case Studies</button>
+                        </Link>
                     </div>
                 </div>
                 <div className="stories-section">
@@ -34,7 +39,9 @@ const Stories = () => {
                     </div>
                     <div className="stories-right">
                         <p>With campaigns that connect, engage, and drive growth.</p>
+                        <Link to="/case-studies">
                         <button className="stories-cta">Explore Our Case Studies</button>
+                        </Link>
                     </div>
                 </div>
                 <div className="stories-section">
@@ -43,7 +50,9 @@ const Stories = () => {
                     </div>
                     <div className="stories-right">
                         <p>With visuals that captivate and experiences that stay.</p>
+                        <Link to="/case-studies">
                         <button className="stories-cta">Explore Our Case Studies</button>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/ArksHero.css"
+import { Link } from 'react-router-dom'
 
 const ArksHero = () => {
   return (
@@ -61,7 +62,9 @@ const ArksHero = () => {
                             <p>
                             This structure helped us test, learn, and double down on what worked across both creative and audience behavior while keeping the performance engine lean and sharp.
                             </p>
+                            <Link to="/#contact">
                             <button className="cta-button">BOOK DISCOVERY CALL</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
