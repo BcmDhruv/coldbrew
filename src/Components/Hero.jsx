@@ -1,5 +1,7 @@
 import React from 'react'
 import "../Styles/Hero.css";
+import { Link } from 'react-router-dom';
+
 
 
 function Hero() {
@@ -20,7 +22,9 @@ function Hero() {
             <div className="hero-main">
                 <h1>Creative that knows what clicks</h1>
                 <h3>Built for brands that want more than just likes.</h3>
+                <Link to='/case-studies'>
                 <button className="hero-btn">Watch the work</button>
+                </Link>
             </div>
         
         </section>  

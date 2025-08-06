@@ -46,9 +46,10 @@
     letter-spacing: 0.2em;
   }
 
-  .btn {
+  .services-btn {
     padding: 0.8em 3em;
     font-size: 0.8rem;
+    color: #333;
   }
 }
 @media (max-width: 768px) {
@@ -83,7 +84,7 @@
     letter-spacing: 0.1em;
   }
 
-  .btn {
+  .services-btn {
     padding: 0.6em 2.5em;
     font-size: 0.75rem;
   }
@@ -109,7 +110,7 @@
     line-height: 1.4em;
   }
 
-  .btn {
+  .services-btn {
     width: 100%;
     padding: 0.8em 0;
   }

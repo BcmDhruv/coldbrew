@@ -39,6 +39,8 @@
 
 .faq-section {
     background-color: #F4D8CD;
+    background-image: url("/Filter1.png");
+    background-size: cover;
     width: 100%;
 }
 
@@ -50,7 +52,7 @@
 }
 
 .faq-item {
-  border-bottom: 1px solid #d4c4b0;
+  border-bottom: 1px solid #333;
   position: relative;
 }
 
@@ -78,7 +80,7 @@
 
 .faq-number {
   font-size: 14px;
-  color: #8b7355;
+  color: #d4704a;
   font-weight: 400;
   margin-bottom: 8px;
 }
@@ -141,9 +143,6 @@
 
 /* Responsive design */
 @media (max-width: 768px) {
-  .faq-container {
-    margin: 0 10px;
-  }
 
   .faq-header {
     padding: 24px 20px;
@@ -158,6 +157,16 @@
   }
 }
 
+
+.process-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.process-wrapper ul {
+  margin-left: 30px;
+}
 
 .process-images {
   display: grid;
@@ -193,3 +202,32 @@
     grid-template-columns: 1fr;
   }
 }
+
+.objective-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.objective-wrapper h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  flex: 1;
+  white-space: nowrap;
+}
+
+.objective-wrapper p {
+  flex: 1;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .objective-wrapper {
+    flex-direction: column;
+  }
+}
+

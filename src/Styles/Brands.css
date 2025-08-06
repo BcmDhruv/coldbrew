@@ -62,9 +62,9 @@
 }
 
 /* Show original color on hover */
-.marquee-track img:hover {
+/* .marquee-track img:hover {
   filter: grayscale(100%);
-}
+} */
 
 /* Stop on Hover */
 .marquee-slider:hover .marquee-track {

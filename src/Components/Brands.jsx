@@ -21,6 +21,7 @@ const Brands = () => {
               <img src="/logos/chalo.png" alt="chalo logo" />
               <img src="/logos/nivi.png" alt="nivi logo" />
               <img src="/logos/sharechat.png" alt="sharechat logo" />
+              <img src="/logos/spjimr.png" alt="sharechat logo" />
               <img src="/logos/weschool.png" alt="weshool logo" />
               <img src="/logos/arks.png" alt="arks-logo" />
               <img src="/logos/chalo.png" alt="chalo logo" />

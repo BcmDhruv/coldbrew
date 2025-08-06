@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/Services.css";
+import { Link } from 'react-router-dom';
 
 
 function Services() {
@@ -91,7 +92,9 @@ function Services() {
             </div>
 
             <div className="services-cta">
-                <button className="btn">See Our Work</button>
+                <Link to='/case-studies'>
+                    <button className="services-btn">See Our Work</button>
+                </Link>
             </div>
         </div>
         
