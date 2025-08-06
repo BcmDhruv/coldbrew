@@ -75,7 +75,7 @@ const Team = () => {
             </div>
             <div className="team-member-cta">
             <Link to='/case-studies'>
-                <button className="btn">See Our Work</button>
+                <button className="services-btn">See Our Work</button>
             </Link>
             </div>
         </div>
