@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/Team.css"
+import { Link } from 'react-router-dom'
 
 const Team = () => {
   return (
@@ -73,7 +74,9 @@ const Team = () => {
                 </div>
             </div>
             <div className="team-member-cta">
+            <Link to='/case-studies'>
                 <button className="btn">See Our Work</button>
+            </Link>
             </div>
         </div>
     </section>
