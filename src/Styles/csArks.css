@@ -54,6 +54,24 @@
   align-items: center;
 }
 
+.kpi-numbers {
+  display: flex;
+  gap: 1px;
+}
+.kpi h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.kpi span {
+  font-size: 20px;
+  vertical-align: super;
+  color: #fff;
+}
+
+.kpi p {
+  color: white;
+}
+
 .grid-button {
   display: flex;
   align-items: flex-start;

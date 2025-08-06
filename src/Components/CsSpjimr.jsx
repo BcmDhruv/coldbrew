@@ -29,13 +29,17 @@ const CsSpjimr = () => {
 
                         
                         <div className="grid-kpis">
-                            <div className="kpi">
-                                <strong>30</strong><span>%</span><br />
-                                <small>Increase<br />in engagement</small>
+                            <div className="o-kpi">
+                                <div className="o-kpi-numbers">
+                                <h1>30</h1><span>%</span><br />
+                                </div>
+                                <p>Increase<br />in engagement</p>
                             </div>
-                            <div className="kpi">
-                                <strong>70</strong><span>%</span><br />
-                                <small>Increase<br />in revenue</small>
+                            <div className="o-kpi">
+                                <div className="o-kpi-numbers">
+                                <h1>70</h1><span>%</span><br />
+                                </div>
+                                <p>Increase<br />in revenue</p>
                             </div>
                         </div>
 
