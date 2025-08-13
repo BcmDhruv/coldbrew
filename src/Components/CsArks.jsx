@@ -10,16 +10,12 @@ const CsArks = () => {
                     <div className="cs-grid">
                         <div className="grid-title">About Brand</div>
                             <div className="grid-content">
-                            What was the campaign strategy and how was the creative strategy
-                            aligned to that. What was the campaign strategy and how was the
-                            creative strategy.
+                            ARKS is Ranbir Kapoor’s menswear brand rooted in quiet luxury, minimalism, and comfort.
                             </div>
 
                         <div className="grid-title">Campaign Strategy</div>
                             <div className="grid-content">
-                            Aligned to that. What was the campaign strategy and how was the
-                            creative strategy aligned to that. What was the campaign strategy
-                            and how was the creative strategy aligned to that.
+                            We built high-ROAS campaigns through segmented funnels and clean, product-led creatives, scaling revenue by 5x without relying on celebrity endorsements or heavy discounts.
                             </div>
 
                         

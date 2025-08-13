@@ -3,8 +3,19 @@
   width: 100%;
   height: 100vh;
   background-color: #F3E9DC;
-  background-image: url(/Filter2.png);
-  background-size: cover;
+  /* background-image: url(/Filter2.png);
+  background-size: cover; */
+  background-image: url("data:image/svg+xml;utf8,\
+  <svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'>\
+  <filter id='crumple'>\
+  <feTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='5' seed='3'/>\
+  <feDiffuseLighting surfaceScale='1.5' lighting-color='rgb(200,170,150)'>\
+  <feDistantLight azimuth='45' elevation='55'/>\
+  </feDiffuseLighting>\
+  </filter>\
+  <rect width='100%' height='100%' filter='url(%23crumple)' opacity='0.18'/>\
+  </svg>");
+  background-size: 180px 180px;
   padding: 40px 0;
 }
 
@@ -57,7 +68,6 @@
   letter-spacing: 1px;
   color: #fff;
 }
-
 
 .grid-kpis {
   display: flex;
@@ -164,6 +174,10 @@
   .grid-btn {
     padding: 8px 16px;
     font-size: 0.85rem;
+  }
+
+  .csspjimr {
+    height: auto;
   }
 }
 

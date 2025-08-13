@@ -10,16 +10,12 @@ const CsAskNivi = () => {
                     <div className="cs-grid">
                         <div className="grid-title">About Brand</div>
                             <div className="grid-content">
-                            What was the campaign strategy and how was the creative strategy
-                            aligned to that. What was the campaign strategy and how was the
-                            creative strategy.
+                            askNivi is a private, AI-powered WhatsApp chatbot for women’s health conversations.
                             </div>
 
                         <div className="grid-title">Campaign Strategy</div>
                             <div className="grid-content">
-                            Aligned to that. What was the campaign strategy and how was the
-                            creative strategy aligned to that. What was the campaign strategy
-                            and how was the creative strategy aligned to that.
+                            We created low-friction, trust-first creatives like “Scan the Code” that tripled conversations and made it safer for women to ask sensitive questions anonymously.
                             </div>
 
                         

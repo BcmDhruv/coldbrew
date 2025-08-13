@@ -16,16 +16,12 @@ const CsSpjimr = () => {
                     <div className="cs-grid">
                         <div className="grid-title">About Brand</div>
                             <div className="grid-content">
-                            What was the campaign strategy and how was the creative strategy
-                            aligned to that. What was the campaign strategy and how was the
-                            creative strategy.
+                            Yangpoo is an edtech brand offering programs for family business successors and mid-career professionals.
                             </div>
 
                         <div className="grid-title">Campaign Strategy</div>
                             <div className="grid-content">
-                            Aligned to that. What was the campaign strategy and how was the
-                            creative strategy aligned to that. What was the campaign strategy
-                            and how was the creative strategy aligned to that.
+                            We built two distinct, persona-led funnels with sharp, human messaging, delivering 25x CTR uplift and a massive drop in CPL for high-intent audiences.
                             </div>
 
                         
