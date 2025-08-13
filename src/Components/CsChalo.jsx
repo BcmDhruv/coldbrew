@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/csChalo.css"
+import { Link } from 'react-router-dom'
 
 const CsChalo = () => {
   return (
@@ -44,7 +45,9 @@ const CsChalo = () => {
                         </div>
 
                         <div className="grid-button">
-                            <button className="grid-btn">Explore</button>
+                            <Link to='/chalo-case-study'>
+                                <button className="grid-btn">Explore</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

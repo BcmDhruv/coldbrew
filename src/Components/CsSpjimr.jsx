@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/csSpjimr.css"
+import { Link } from 'react-router-dom'
 
 const CsSpjimr = () => {
   return (
@@ -44,7 +45,9 @@ const CsSpjimr = () => {
                         </div>
 
                         <div className="grid-button">
+                            <Link to="/Yangpoo-case-study">
                             <button className="grid-btn">Explore</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

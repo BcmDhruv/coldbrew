@@ -19,6 +19,18 @@ const ArksCaseStudy = () => {
     "/Arks/ArksProcess3.png"
   ];
 
+  const arksimages = [
+    "/Arks/arks1.png",
+    "/Arks/arks2.png",
+    "/Arks/arks3.png",
+    "/Arks/arks4.png",
+    "/Arks/arks5.png",
+    "/Arks/arks6.png",
+    "/Arks/arks7.png",
+    "/Arks/arks8.png",
+    "/Arks/arks1.png",
+  ];
+
   const faqs = [
     {
       number: "01/",
@@ -95,10 +107,12 @@ const ArksCaseStudy = () => {
       <ServiceProvided image={serviceImg} />
       <AdsCreated images={imageUrls} />
       <FAQs faqs={faqs} />
-      <ImageGrid />
+      <ImageGrid images={arksimages}/>
     </>
 
   );
 };
 
 export default ArksCaseStudy;
+
+

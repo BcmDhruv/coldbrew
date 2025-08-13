@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/csAskNivi.css"
+import { Link } from 'react-router-dom'
 
 const CsAskNivi = () => {
   return (
@@ -38,7 +39,9 @@ const CsAskNivi = () => {
                         </div>
 
                         <div className="grid-button">
-                            <button className="grid-btn">Explore</button>
+                            <Link to='/asknivi-case-study'>
+                                <button className="grid-btn">Explore</button>
+                            </Link>
                         </div>
                     </div>
                 </div>
