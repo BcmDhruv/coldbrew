@@ -5,6 +5,7 @@ import FAQs from '../Components/FAQs'
 import AdsCreated from '../Components/AdsCreated'
 import ServiceProvided from '../Components/ServiceProvided'
 import serviceImg from '/Arks/Arks-Services.png';
+import './ArksCaseStudy.css'
 
 const ArksCaseStudy = () => {
   const imageUrls = [
@@ -102,13 +103,13 @@ const ArksCaseStudy = () => {
   
 
   return (
-    <>
+    <div className='arks-cs-bg'>
       <ArksHero />
       <ServiceProvided image={serviceImg} />
       <AdsCreated images={imageUrls} />
       <FAQs faqs={faqs} />
       <ImageGrid images={arksimages}/>
-    </>
+    </div>
 
   );
 };
