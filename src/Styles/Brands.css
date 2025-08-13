@@ -3,9 +3,19 @@
 
 .brands {
   width: 100%;
-  background-color: #3C221E;
-  background-image: url(/Filter1.png);
-  background-size: cover;
+  background-color: #3b2521;
+  background-image: url("data:image/svg+xml;utf8,\
+  <svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'>\
+  <filter id='crumple'>\
+  <feTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='5' seed='3'/>\
+  <feDiffuseLighting surfaceScale='1.5' lighting-color='rgb(200,170,150)'>\
+  <feDistantLight azimuth='45' elevation='55'/>\
+  </feDiffuseLighting>\
+  </filter>\
+  <rect width='100%' height='100%' filter='url(%23crumple)' opacity='0.18'/>\
+  </svg>");
+
+  background-size: 180px 180px;
   padding: 80px 0;
 }
 
@@ -58,7 +68,7 @@
 .marquee-track img {
   filter: grayscale(0%);
   transition: all 0.3s ease-in-out;
-  width: 250px; 
+  width: 250px;
 }
 
 /* Show original color on hover */

@@ -4,6 +4,8 @@ import serviceImg from '/Chalo/Chalo-Services.png';
 import AdsCreated from '../Components/AdsCreated';
 import FAQs from '../Components/FAQs';
 import ImageGrid from '../Components/ImageGrid';
+import '../Styles/CaseStudyPages/ChaloCaseStudy.css'
+import ArksHero from '../Components/ArksHero';
 
 const ChaloCaseStudy = () => {
     const imageUrls = [
@@ -24,9 +26,9 @@ const ChaloCaseStudy = () => {
     ];
 
     const processImages = [
-    "/Arks/ArksProcess1.png",
-    "/Arks/ArksProcess2.png",
-    "/Arks/ArksProcess3.png"
+    "/Chalo/ChaloProcess1.png",
+    "/Chalo/ChaloProcess2.png",
+    "/Chalo/ChaloProcess3.png"
     ];
 
    const faqs = [
@@ -96,14 +98,61 @@ const ChaloCaseStudy = () => {
         ),
         },
     ];
-    
+
+    const arksHeroData = {
+    imageSrc: "/Chalo/Chalo-hero.jpg",
+    title: "CHALO",
+    sectors: "E-commerce, Consumer",
+    stats: (
+        <>
+        <div className="stat">
+            <h2>30<span>%</span></h2>
+            <p>Increase<br />in engagement</p>
+        </div>
+        <div className="stat">
+            <h2>70<span>%</span></h2>
+            <p>Increase<br />in revenue</p>
+        </div>
+        <div className="stat">
+            <h2>100<span>+</span></h2>
+            <p>Creatives<br />delivered</p>
+        </div>
+        </>
+    ),
+    rightContent: (
+        <>
+        <p className="intro">
+            <p>Chalo is a subscription-based commute service for working professionals in Mumbai. It sits in the sweet spot between the chaos of local trains and the high cost of cabs and offers express routes, guaranteed seats, and a lot of convenience at a fraction of what ride-sharing services cost.</p>
+            <p>But building a mobility brand isn’t just about showing routes or pricing. It’s about showing people a better feeling - the relief of knowing you’ll always get a seat, the comfort of skipping traffic, and the quiet joy of reaching work without stress.</p>
+        </p>
+
+        <h3>Campaign Strategy</h3>
+        <p className="objective">
+            The goal was to drive first-time ride coversions by getting users to explore Chalo's subscription model through promotional passes.
+        </p>
+        <p>
+            To make that happen, we built a performance engine that was:
+        </p>
+        <ul>
+            <li><strong>Hyperlocal:</strong> Every campaign was tightly geo-targeted within Mumbai</li>
+            <li><strong>Funnel-Smart:</strong>We optimised for deeper funnel events like pass views and redemptions.</li>
+            <li><strong>Cross-Platform:</strong>Ran app installs and re-engagement campaigns across Google and Mets</li>
+        </ul>
+        <p>
+            We were actively trying to sell a better way to get to work and our funnel was built to reflect that.
+        </p>
+        </>
+    )
+  };
+
   return (
-    <>
+    <div className='chalo-cs-bg'>
+    <ArksHero heroData={arksHeroData} />
     <ServiceProvided  image={serviceImg} />
     <AdsCreated images={imageUrls} />
     <FAQs faqs={faqs} />
     <ImageGrid images={chaloImages} />
-    </>
+    </div>
   )
 }
 

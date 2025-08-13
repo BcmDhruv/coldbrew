@@ -4,6 +4,7 @@ import FAQs from '../Components/FAQs';
 import serviceImg from '/Yangpoo/Yangpoo-Services.webp'
 import ServiceProvided from '../Components/ServiceProvided';
 import AdsCreated from '../Components/AdsCreated';
+import '../Styles/CaseStudyPages/YangpooCaseStudy.css'
 
 const YangpooCaseStudy = () => {
 

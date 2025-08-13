@@ -5,7 +5,7 @@ import FAQs from '../Components/FAQs'
 import AdsCreated from '../Components/AdsCreated'
 import ServiceProvided from '../Components/ServiceProvided'
 import serviceImg from '/Arks/Arks-Services.png';
-import './ArksCaseStudy.css'
+import '../Styles/CaseStudyPages/ArksCaseStudy.css'
 
 const ArksCaseStudy = () => {
   const imageUrls = [
@@ -100,11 +100,60 @@ const ArksCaseStudy = () => {
     },
   ];
 
+  const arksHeroData = {
+  imageSrc: "/Arks/redcap.png",
+  title: "ARKS",
+  sectors: "E-commerce, Consumer",
+  stats: (
+    <>
+      <div className="stat">
+        <h2>30<span>%</span></h2>
+        <p>Increase<br />in engagement</p>
+      </div>
+      <div className="stat">
+        <h2>70<span>%</span></h2>
+        <p>Increase<br />in revenue</p>
+      </div>
+      <div className="stat">
+        <h2>100<span>+</span></h2>
+        <p>Creatives<br />delivered</p>
+      </div>
+    </>
+  ),
+  rightContent: (
+    <>
+      <p className="intro">
+        ARKS is a lifestyle clothing brand owned by Ranbir Kapoor and it's built around the principles of minimalism, comfort, and quiet luxury. Every product in the lineup is made to elevate everyday essentials through clean design and a calm, intentional aesthetic.
+        When the team first approached us, they had clarity on what the brand stood for - quiet confidence, premium quality, and simplicity done right. What they needed was a creative and performance partner who could bring that vision to life, at scale.
+        When we pitched our approach, the ARKS team was aligned from the first presentation.
+        But winning the pitch was just the beginning.
+      </p>
+
+      <h3>Campaign Strategy</h3>
+      <p className="objective">
+        The objective was clear: drive consistent daily revenue while maintaining a strong ROAS without diluting the brand's tone.
+      </p>
+      <p>
+        Instead of mass campaigns, we focused on structured segmentation that let us scale with clarity.
+      </p>
+      <ul>
+        <li>Gender-based targeting</li>
+        <li>Product Categories (Shirts, co-ords, pants, etc.)</li>
+        <li>Funnel stages (cold, warm, hot audiences)</li>
+      </ul>
+      <p>
+        This structure helped us test, learn, and double down on what worked across both creative and audience behavior while keeping the performance engine lean and sharp.
+      </p>
+    </>
+  )
+  };
+
+
   
 
   return (
     <div className='arks-cs-bg'>
-      <ArksHero />
+      <ArksHero heroData={arksHeroData} />
       <ServiceProvided image={serviceImg} />
       <AdsCreated images={imageUrls} />
       <FAQs faqs={faqs} />
