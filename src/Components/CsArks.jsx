@@ -43,8 +43,8 @@ const CsArks = () => {
                 </div>
 
                 <div className="rightcol-csarks">
-                    <img className="desktop-img" src="arks-half.png" alt="Case study image" />
-                    <img className="mobile-img" src="arks.png" alt="" />
+                    <img className="desktop-img" src="arks-half.webp" alt="Case study image" />
+                    <img className="mobile-img" src="arks.webp" alt="case study image" />
                 </div>
             </div>
         </section>

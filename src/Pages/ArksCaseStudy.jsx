@@ -6,6 +6,7 @@ import AdsCreated from '../Components/AdsCreated'
 import ServiceProvided from '../Components/ServiceProvided'
 import serviceImg from '/Arks/Arks-Services.png';
 import '../Styles/CaseStudyPages/ArksCaseStudy.css'
+import { Link } from 'react-router-dom'
 
 const ArksCaseStudy = () => {
   const imageUrls = [
@@ -15,21 +16,21 @@ const ArksCaseStudy = () => {
   ];
 
   const processImages = [
-    "/Arks/ArksProcess1.png",
-    "/Arks/ArksProcess2.png",
-    "/Arks/ArksProcess3.png"
+    "/Arks/ArksProcess1.webp",
+    "/Arks/ArksProcess2.webp",
+    "/Arks/ArksProcess3.webp"
   ];
 
   const arksimages = [
-    "/Arks/arks1.png",
-    "/Arks/arks2.png",
-    "/Arks/arks3.png",
-    "/Arks/arks4.png",
-    "/Arks/arks5.png",
+    "/Arks/arks1.webp",
+    "/Arks/arks2.webp",
+    "/Arks/arks3.webp",
+    "/Arks/arks4.webp",
+    "/Arks/arks5.webp",
     "/Arks/arks6.png",
     "/Arks/arks7.png",
     "/Arks/arks8.png",
-    "/Arks/arks1.png",
+    "/Arks/arks9.webp",
   ];
 
   const faqs = [
@@ -89,13 +90,18 @@ const ArksCaseStudy = () => {
       number: "03/",
       title: "Impact",
       content: (
-        <p>
-          The impact of our work extends beyond immediate results. We measure
-          success through tangible outcomes such as increased efficiency,
-          improved user experience, and enhanced business performance. Our
-          solutions are designed to scale with your growth and adapt to changing
-          market conditions, ensuring long-term value and competitive advantage.
-        </p>
+        <div className='impact-wrappper'>
+        <p>Without leaning on heavy offers or celebrity influence, the brand was able to:</p>
+        <ul>
+          <li><strong>Hit and exceed monthly revenue goals</strong></li>
+          <li><strong>Maintain a high ROAS across cold and warm audiences</strong></li>
+          <li><strong>Establish early product-category winners for long-term media planning</strong></li>
+        </ul>
+        <p>If you’re building a lifestyle brand that values design, tone, and consistency and still wants to scale profitably - Let's talk.</p>
+        <Link to="/#contact">
+          <button className="cta-button">BOOK DISCOVERY CALL</button>
+        </Link>
+        </div>
       ),
     },
   ];

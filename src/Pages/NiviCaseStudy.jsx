@@ -6,6 +6,7 @@ import '../Styles/CaseStudyPages/NiviCaseStudy.css'
 import FAQs from '../Components/FAQs';
 import ArksHero from '../Components/ArksHero';
 import AdsCreated from '../Components/AdsCreated';
+import { Link } from 'react-router-dom';
 
 const NiviCaseStudy = () => {
 
@@ -90,13 +91,18 @@ const faqs = [
     number: "03/",
     title: "Impact",
     content: (
-        <p>
-        The impact of our work extends beyond immediate results. We measure
-        success through tangible outcomes such as increased efficiency,
-        improved user experience, and enhanced business performance. Our
-        solutions are designed to scale with your growth and adapt to changing
-        market conditions, ensuring long-term value and competitive advantage.
-        </p>
+        <div className='impact-wrappper'>
+            <ul>
+              <li><strong>Tripled chatbot conversations through clean entry points and smart targeting</strong></li>
+              <li><strong>Improved cost efficiency by 38%, making impact sustainable at scale</strong></li>
+              <li><strong>Gave women across conservative regions a private, accessible space to understand their health better.</strong></li>
+            </ul>
+          <p>If you're working in the impact space and want to build systems that drive real conversations</p>
+          <p>Let's talk.</p>
+            <Link to="/#contact">
+              <button className="cta-button">BOOK DISCOVERY CALL</button>
+            </Link>
+        </div>
     ),
     },
 ];

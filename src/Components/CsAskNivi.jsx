@@ -43,8 +43,8 @@ const CsAskNivi = () => {
                 </div>
 
                 <div className="rightcol-csasknivi">
-                    <img className="desktop-img" src="ask-nivi-half.png" alt="Case study image" />
-                    <img className="mobile-img" src="nivi.png" alt="" />
+                    <img className="desktop-img" src="ask-nivi-half.webp" alt="Case study image" />
+                    <img className="mobile-img" src="nivi.webp" alt="Case Study Image" />
                 </div>
             </div>
         </section>

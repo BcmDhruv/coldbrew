@@ -1,26 +1,26 @@
 import React from 'react'
-import "../Styles/csSpjimr.css"
+import "../Styles/csYangpoo.css"
 import { Link } from 'react-router-dom'
 
-const CsSpjimr = () => {
+const CsYangpoo = () => {
   return (
-     <section className="csspjimr">
+     <section className="csyangpoo">
             <div className="case-study-wrapper2">
-                <div className="leftcol-csspjimr">
-                    <img className="desktop-img" src="spjimr-half.png" alt="Case study image" />
-                    <img className="mobile-img" src="spjimr.png" alt="" />
+                <div className="leftcol-csyangpoo">
+                    <img className="desktop-img" src="yangpoo-half.webp" alt="Case study image" />
+                    <img className="mobile-img" src="yangpoo.webp" alt="" />
                 </div>
 
 
-                <div className="rightcol-csspjimr">
+                <div className="rightcol-csyangpoo">
                     <div className="cs-grid">
                         <div className="grid-title">About Brand</div>
-                            <div className="grid-content">
+                            <div className="o-grid-content">
                             Yangpoo is an edtech brand offering programs for family business successors and mid-career professionals.
                             </div>
 
                         <div className="grid-title">Campaign Strategy</div>
-                            <div className="grid-content">
+                            <div className="o-grid-content">
                             We built two distinct, persona-led funnels with sharp, human messaging, delivering 25x CTR uplift and a massive drop in CPL for high-intent audiences.
                             </div>
 
@@ -53,4 +53,4 @@ const CsSpjimr = () => {
   )
 }
 
-export default CsSpjimr
+export default CsYangpoo

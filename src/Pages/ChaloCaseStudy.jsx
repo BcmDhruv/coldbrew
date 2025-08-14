@@ -6,29 +6,30 @@ import FAQs from '../Components/FAQs';
 import ImageGrid from '../Components/ImageGrid';
 import '../Styles/CaseStudyPages/ChaloCaseStudy.css'
 import ArksHero from '../Components/ArksHero';
+import { Link } from 'react-router-dom';
 
 const ChaloCaseStudy = () => {
     const imageUrls = [
-    "/Chalo/Chalo_Img1.png",
-    "/Chalo/Chalo_Img2.png",
-    "/Chalo/Chalo_img3.png"
+    "/Chalo/Chalo_Img1.webp",
+    "/Chalo/Chalo_Img2.webp",
+    "/Chalo/Chalo_img3.jpg"
     ];
     const chaloImages = [
-    "/Chalo/chalo1.png",
-    "/Chalo/chalo2.png",
-    "/Chalo/chalo3.png",
-    "/Chalo/chalo4.jpg",
-    "/Chalo/chalo5.jpg",
-    "/Chalo/chalo6.png",
-    "/Chalo/chalo7.png",
-    "/Chalo/chalo8.png",
-    "/Chalo/chalo9.png"
+    "/Chalo/chalo1.webp",
+    "/Chalo/chalo2.webp",
+    "/Chalo/chalo3.webp",
+    "/Chalo/chalo4.webp",
+    "/Chalo/chalo5.webp",
+    "/Chalo/chalo6.webp",
+    "/Chalo/chalo7.webp",
+    "/Chalo/chalo8.webp",
+    "/Chalo/chalo9.webp"
     ];
 
     const processImages = [
-    "/Chalo/ChaloProcess1.png",
-    "/Chalo/ChaloProcess2.png",
-    "/Chalo/ChaloProcess3.png"
+    "/Chalo/ChaloProcess1.webp",
+    "/Chalo/ChaloProcess2.webp",
+    "/Chalo/ChaloProcess3.webp"
     ];
 
    const faqs = [
@@ -88,13 +89,20 @@ const ChaloCaseStudy = () => {
         number: "03/",
         title: "Impact",
         content: (
-            <p>
-            The impact of our work extends beyond immediate results. We measure
-            success through tangible outcomes such as increased efficiency,
-            improved user experience, and enhanced business performance. Our
-            solutions are designed to scale with your growth and adapt to changing
-            market conditions, ensuring long-term value and competitive advantage.
-            </p>
+            <div className='impact-wrappper'>
+                <p>Our work helped Chalo:</p>
+                    <ul>
+                    <li><strong>Drive thousands of first-ride pass activations through targeted city-level campaigns</strong></li>
+                    <li><strong>Improve funnel performance by focusing on real-user behavior and deep conversion events.</strong></li>
+                    <li><strong>Build a creative system that speaks to both the commuter's mood and mind.</strong></li>
+                    <li><strong>Establish Chalo not just as a functional option but as a lifestyle upgrade for daily office goers.</strong></li>
+                    </ul>
+                <p>If your mobility brand that stands for something more, we can help you tell that story and drive momentum and revenue to your brand.</p>
+                <p>Let's talk.</p>
+                <Link to="/#contact">
+                  <button className="cta-button">BOOK DISCOVERY CALL</button>
+                </Link>
+            </div>
         ),
         },
     ];

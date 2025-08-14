@@ -3,7 +3,8 @@ import CaseStudies from '../Components/CaseStudies'
 import CsArks from '../Components/CsArks'
 import CsChalo from '../Components/CsChalo'
 import CsAskNivi from '../Components/CsAskNivi'
-import CsSpjimr from '../Components/CsSpjimr'
+import CsYangpoo from '../Components/CsYangpoo'
+
 
 const CaseStudy = () => {
   return (
@@ -12,7 +13,7 @@ const CaseStudy = () => {
     <CsArks />
     <CsChalo />
     <CsAskNivi />
-    <CsSpjimr />
+    <CsYangpoo />
     
     </>
   )

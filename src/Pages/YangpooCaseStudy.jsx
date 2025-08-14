@@ -5,6 +5,7 @@ import serviceImg from '/Yangpoo/Yangpoo-Services.webp'
 import ServiceProvided from '../Components/ServiceProvided';
 import AdsCreated from '../Components/AdsCreated';
 import '../Styles/CaseStudyPages/YangpooCaseStudy.css'
+import { Link } from 'react-router-dom';
 
 const YangpooCaseStudy = () => {
 
@@ -89,13 +90,15 @@ const YangpooCaseStudy = () => {
         number: "03/",
         title: "Impact",
         content: (
-            <p>
-            The impact of our work extends beyond immediate results. We measure
-            success through tangible outcomes such as increased efficiency,
-            improved user experience, and enhanced business performance. Our
-            solutions are designed to scale with your growth and adapt to changing
-            market conditions, ensuring long-term value and competitive advantage.
-            </p>
+        <div className='impact-wrappper'>
+            <ul>
+              <li><strong>Both programs saw a steady pipeline of high-quality paid applications and a significant jump from prior efforts.</strong></li>
+              <li><strong>Lead-to-application ratios improved across the board due to tighter segmentation and user-specific messaging</strong></li>
+            </ul>
+            <Link to="/#contact">
+              <button className="cta-button">BOOK DISCOVERY CALL</button>
+            </Link>
+        </div>
         ),
         },
     ];
@@ -103,12 +106,12 @@ const YangpooCaseStudy = () => {
 
   return (
     
-    <>
+    <div className='yp-cs-bg'>
     <ServiceProvided image={serviceImg} />
     <AdsCreated images = {imageUrls} />
     <FAQs faqs={faqs} />
     <ImageGrid images={YangpooImg} />
-    </>
+    </div>
   )
 }
 

@@ -7,20 +7,20 @@ const CsChalo = () => {
         <section className="cschalo">
             <div className="case-study-wrapper2">
                 <div className="leftcol-cschalo">
-                    <img className="desktop-img" src="chalo-half.png" alt="Case study image" />
-                    <img className="mobile-img" src="chalo.png" alt="" />
+                    <img className="desktop-img" src="chalo-half.webp" alt="Case study image" />
+                    <img className="mobile-img" src="chalo.webp" alt="" />
                 </div>
 
 
                 <div className="rightcol-cschalo">
                     <div className="cs-grid">
                         <div className="grid-title">About Brand</div>
-                            <div className="grid-content">
+                            <div className="o-grid-content">
                             Chalo is a smart, subscription-based bus commute service for working professionals in Mumbai.
                             </div>
 
                         <div className="grid-title">Campaign Strategy</div>
-                            <div className="grid-content">
+                            <div className="o-grid-content">
                             We hyper-targeted pain points of daily travel like selling peace, not passes, leading to a 360% rise in first rides and a 19x conversion boost in best-performing campaigns.
                             </div>
 
