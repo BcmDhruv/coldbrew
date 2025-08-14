@@ -36,13 +36,6 @@ const Team = () => {
                 <div className="row">
                     <div className="team-member-wrapper">
                         <div className="team-circle">
-                        <img src="/team/Neel.png" alt="Siddharth" />
-                        </div>
-                        <h3>Neelakantan Krishnan</h3>
-                        <p>Client Success Manager</p>
-                    </div>
-                    <div className="team-member-wrapper">
-                        <div className="team-circle">
                         <img src="/team/Jalnidhi.png" alt="Siddharth" />
                         </div>
                         <h3>Jalnidhi Saurabh Singh</h3>
