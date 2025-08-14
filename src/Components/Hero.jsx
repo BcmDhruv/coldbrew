@@ -13,6 +13,7 @@ function Hero() {
             muted
             loop
             playsInline
+            preload="auto"
             controls={false}
             className="hero-video"
             poster="/Banner-hero.png"
