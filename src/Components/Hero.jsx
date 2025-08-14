@@ -16,7 +16,6 @@ function Hero() {
             preload="auto"
             controls={false}
             className="hero-video"
-            poster="/Banner-hero.png"
             >
                 <source src="/videos/hero.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
