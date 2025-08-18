@@ -1,23 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital@0;1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital@0;1&display=swap'); */
 
 @font-face {
   font-family: 'OpenSansCondBold';
-  src: url('/fonts/OpenSans_Condensed-Bold.woff2') format('truetype');
+  src: url('/fonts/OpenSans_Condensed-Bold.woff2') format('woff2');
   font-weight: bold;
+  font-display: swap;   
 }
 
 @font-face {
   font-family: 'OpenSansCondSemiBold';
-  src: url('/fonts/OpenSans_Condensed-SemiBold.woff2') format('truetype');
+  src: url('/fonts/OpenSans_Condensed-SemiBold.woff2') format('woff2');
   font-weight: 600;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'OpenSansCondRegular';
-  src: url('/fonts/OpenSans_Condensed-Regular.woff2') format('truetype');
-  font-style: italic;
+  src: url('/fonts/OpenSans_Condensed-Regular.woff2') format('woff2');
   font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
+
 
 
 :root {
