@@ -32,3 +32,42 @@ const App = () => {
 };
 
 export default App;
+
+
+// import React, { Suspense, lazy } from "react";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Header from "./Components/Header";
+// import Footer from "./Components/Footer";
+// import "./Styles/Responsive.css";
+
+
+// const Home = lazy(() => import("./Pages/Home"));
+// const About = lazy(() => import("./Pages/About"));
+// const CaseStudy = lazy(() => import("./Pages/CaseStudy"));
+// const ArksCaseStudy = lazy(() => import("./Pages/ArksCaseStudy"));
+// const ChaloCaseStudy = lazy(() => import("./Pages/ChaloCaseStudy"));
+// const NiviCaseStudy = lazy(() => import("./Pages/NiviCaseStudy"));
+// const YangpooCaseStudy = lazy(() => import("./Pages/YangpooCaseStudy"));
+
+// const App = () => {
+//   return (
+//     <Router>
+//       <Header />
+  
+//       <Suspense fallback={<div className="page-loader">Loading...</div>}>
+//         <Routes>
+//           <Route path="/" element={<Home />} />
+//           <Route path="/about" element={<About />} />
+//           <Route path="/case-studies" element={<CaseStudy />} />
+//           <Route path="/arks-case-study" element={<ArksCaseStudy />} />
+//           <Route path="/chalo-case-study" element={<ChaloCaseStudy />} />
+//           <Route path="/asknivi-case-study" element={<NiviCaseStudy />} />
+//           <Route path="/yangpoo-case-study" element={<YangpooCaseStudy />} />
+//         </Routes>
+//       </Suspense>
+//       <Footer />
+//     </Router>
+//   );
+// };
+
+// export default App;

@@ -21,17 +21,18 @@ const ContactUs = () => {
   const handleGifComplete = () => {
     setShowSuccess(false);
     setShowError(false);
-   // Delay reset() by 5 seconds
+
     setTimeout(() => {
-    reset();
-    }, 8000);
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+      reset();
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }, 1000);
   };
 
 
+// ffsc zepc jvfy mklj --> app password
 
   const onSubmit = (data) => {
     setIsSubmitting(true);
@@ -43,7 +44,7 @@ const ContactUs = () => {
     };
 
     emailjs.send(
-      'service_7su47ay',
+      'service_i0fdhgp',
       'template_c3pnmt9',
       templateParams,
       'gz7tVuaStfxhLphul'
@@ -58,7 +59,7 @@ const ContactUs = () => {
       }
     ).finally(() => {
       setIsSubmitting(false);
-      setTimeout(handleGifComplete, 3000); // 7s for GIF
+      setTimeout(handleGifComplete, 3000);
     });
   };
 
@@ -137,7 +138,7 @@ const ContactUs = () => {
               </div>
 
               <button type="submit" disabled={isSubmitting}>
-                {isSubmitting ? "Sending..." : "Send"}
+                {isSubmitting ? "Brewing...." : "Send"}
               </button>
             </form>
           )}
