@@ -4,7 +4,7 @@ import ArksHero from '../Components/ArksHero'
 import FAQs from '../Components/FAQs'
 import AdsCreated from '../Components/AdsCreated'
 import ServiceProvided from '../Components/ServiceProvided'
-import serviceImg from '/Arks/Arks-Services.png';
+import serviceImg from '/Arks/Arks-Services.webp';
 import '../Styles/CaseStudyPages/ArksCaseStudy.css'
 import { Link } from 'react-router-dom'
 

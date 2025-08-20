@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageGrid from '../Components/ImageGrid'
 import ServiceProvided from '../Components/ServiceProvided';
-import serviceImg from '/Nivi/Nivi-Services.png';
+import serviceImg from '/Nivi/Nivi-Services.webp';
 import '../Styles/CaseStudyPages/NiviCaseStudy.css'
 import FAQs from '../Components/FAQs';
 import ArksHero from '../Components/ArksHero';

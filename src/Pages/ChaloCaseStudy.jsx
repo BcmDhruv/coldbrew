@@ -1,6 +1,6 @@
 import React from 'react'
 import ServiceProvided from '../Components/ServiceProvided';
-import serviceImg from '/Chalo/Chalo-Services.png';
+import serviceImg from '/Chalo/Chalo-Services.webp';
 import AdsCreated from '../Components/AdsCreated';
 import FAQs from '../Components/FAQs';
 import ImageGrid from '../Components/ImageGrid';
