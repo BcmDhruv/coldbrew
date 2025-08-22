@@ -11,12 +11,14 @@ import ArksCaseStudy from "./Pages/ArksCaseStudy";
 import ChaloCaseStudy from "./Pages/ChaloCaseStudy";
 import NiviCaseStudy from "./Pages/NiviCaseStudy";
 import YangpooCaseStudy from "./Pages/YangpooCaseStudy";
+import ScrollToTop from "./Components/ScrollToTop";
 
 const App = () => {
   return (
     <>
       <Router>
         <Header />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
