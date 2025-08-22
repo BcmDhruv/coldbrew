@@ -10,7 +10,7 @@ const ServiceProvided = ({ image }) => {
             <img src={image} alt="Service Steps" />
           </div>
           <div className="service-provided-heading">
-            <h1>Services provided</h1>
+            <h1>Process Followed</h1>
           </div>
         </div>
       </div>
