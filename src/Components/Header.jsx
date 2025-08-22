@@ -15,12 +15,19 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const handleLogoClick = (e) => {
+    if (location.pathname === "/") {
+      e.preventDefault(); // stop reload
+      window.scrollTo({ top: 0, behavior: "smooth" }); // smooth scroll up
+    }
+  };
+
   
 
   return (
     <header className={`header ${isAboutPage ? "about-header" : ""}`}>
       <div className="header-content">
-        <Link to="/"><img
+        <Link to="/" onClick={handleLogoClick}><img
         src={isAboutPage ? "/about-header-logo.png" : "/coldbrew-logo.png"}
         alt="Cold Brew Logo" className="logo" /></Link>
         
