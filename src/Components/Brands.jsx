@@ -15,21 +15,29 @@ const Brands = () => {
       </div>
 
         <div className="brands-main">
-          <div className="marquee-slider">
-            <div className="marquee-track">
-              <img src="/logos/arks.png" alt="arks-logo" />
+          <div class="marquee-slider">
+            <div class="marquee-track">
+              <img src="/logos/nivi.png" alt="nivi logo" />
+              <img src="/logos/sharechat.png" alt="sharechat logo" />
+              <img src="/logos/spjimr.png" alt="spjimr logo" />
+              <img src="/logos/weschool.png" alt="weschool logo" />
+              <img src="/logos/arks.png" alt="arks logo" />
               <img src="/logos/chalo.png" alt="chalo logo" />
               <img src="/logos/nivi.png" alt="nivi logo" />
               <img src="/logos/sharechat.png" alt="sharechat logo" />
-              <img src="/logos/spjimr.png" alt="sharechat logo" />
-              <img src="/logos/weschool.png" alt="weshool logo" />
-              <img src="/logos/arks.png" alt="arks-logo" />
+              <img src="/logos/spjimr.png" alt="spjimr logo" />
+              <img src="/logos/weschool.png" alt="weschool logo" />
+              <img src="/logos/arks.png" alt="arks logo" />
               <img src="/logos/chalo.png" alt="chalo logo" />
               <img src="/logos/nivi.png" alt="nivi logo" />
               <img src="/logos/sharechat.png" alt="sharechat logo" />
-              <img src="/logos/weschool.png" alt="weshool logo" />
+              <img src="/logos/spjimr.png" alt="spjimr logo" />
+              <img src="/logos/weschool.png" alt="weschool logo" />
+              <img src="/logos/arks.png" alt="arks logo" />
+              <img src="/logos/chalo.png" alt="chalo logo" />
             </div>
           </div>
+
         </div>
         <div className="container">
           <div className="brands-kpi">
