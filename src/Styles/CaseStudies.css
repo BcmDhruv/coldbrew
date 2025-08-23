@@ -2,7 +2,6 @@
 
 .casestudy {
   width: 100%;
-  min-height: 100vh;  /* take full screen if content is smaller */
   height: auto;
   background-color: #D57E56;
   background-image: url("data:image/svg+xml;utf8,\
