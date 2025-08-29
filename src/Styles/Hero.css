@@ -59,14 +59,14 @@
 }
 
 .hero-btn {
-  padding: 12px 28px;
+  padding: 1em 4em;
   background-color: transparent;
   border: 1px solid #ffffff;
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 0.85em;
   font-family: "Open Sans";
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 1px;
   font-weight: 300;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -82,4 +82,5 @@
 
 
 /* Hero Section Ends  */
+
 

@@ -23,7 +23,7 @@
 .o-grid-content {
   font-size: 1rem;
   letter-spacing: 1px;
-  color: #D57E56;
+  color: #444;
   font-weight: 500;
 }
 
@@ -31,8 +31,8 @@
   font-size: 0.8rem;
   padding: 10px 25px;
   background: transparent;
-  border: 2px solid #D57E56;
-  color: #000;
+  border: 2px solid #444;
+  color: #444;
   letter-spacing: 0.1em;
   cursor: pointer;
 
@@ -41,8 +41,8 @@
 }
 
 .o-grid-btn:hover {
-  background-color: #444;
-  border:2px solid #444;
+  background-color: #D57E56;
+  border:2px solid #D57E56;
   color: #fff;
   transform: scale(1.05); /* subtle grow effect */
 }
