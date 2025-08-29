@@ -16,7 +16,7 @@ const Stories = () => {
                         <div className="stories-circle story-1-bg">Shaping Impact<br />Led Brands</div>
                     </div>
                     <div className="stories-right">
-                        <p>With Stories that spark change and drive impact.</p>
+                        <p>With stories that spark change and drive impact.</p>
                         <Link to="/case-studies">
                         <button className="stories-cta">Explore Our Case Studies</button>
                         </Link>

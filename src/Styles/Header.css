@@ -50,6 +50,16 @@
   transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;
 }
 
+.about-line {
+  fill: none;
+  stroke: #3E1F1B;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;
+  
+}
+
 .line-top-bottom {
   stroke-dasharray: 12 63;
 }

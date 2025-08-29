@@ -19,10 +19,10 @@
 .stories-heading h1 {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-size: 2.5rem;
-  letter-spacing: 0.4em;
-  line-height: 2em;
-  margin-bottom: 20px;
+  font-size: 40px;
+  letter-spacing: 1rem;
+  /* line-height: 2em; */
+  margin-bottom: 60px;
   text-transform: uppercase;
   position: relative;
   display: inline-block; /* makes the ::after relative to text */
@@ -32,9 +32,9 @@
   content: '';
   display: block;
   height: 2px;
-  max-width: 20em; /* change this to control line length */
+  /* max-width: 20em;  */
   background-color: #D57E56;
-  margin: 1em auto ; /* space above + center */
+  margin: 0.5em 1em auto ; /* space above + center */
 }
 
 .stories-flex {
@@ -77,10 +77,11 @@
     justify-content: center;
     text-align: center;
     font-size: 1rem;
-    line-height: 1em;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 800;
-    color: white;
+    line-height: 1.3;
+    font-family: "OpenSansCondBold", sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    color: #3E1F1B;
     padding: 10px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
@@ -113,17 +114,18 @@
     font-weight: 500;
     line-height: 2em;
     letter-spacing: 5px;
-    color: #444;
+    color: #000;
     text-align: left;
 }
 
 .stories-cta {
     color: #D57E56;
-    padding: 1em 4em;
+    padding: 1em 2em;
     background-color: transparent;
-    border: 1px solid #444;
+    border: 1px solid #000;
     border-radius: 5px;
     font-family: "Open Sans", sans-serif;
+    font-weight: 500;
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 1px;

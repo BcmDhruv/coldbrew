@@ -8,8 +8,7 @@ const Brands = () => {
       <div className="container">
         <div className="brands-heading">
           <h1>
-            We don’t just make noise<br />
-            <span>We make winners</span>
+            Trusted By <span>Brands You Know</span>
           </h1>
         </div>
       </div>

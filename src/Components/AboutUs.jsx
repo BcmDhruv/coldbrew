@@ -11,13 +11,14 @@ const AboutUs = () => {
                 <h1>About Us</h1>
             </div>
             <div className="aboutus-main">
-                <p><strong>We read the room. Then build for it.</strong> </p>
-                <p>ColdBrew is a creative studio obsessed with one thing: <br />knowing what your audience atually cares about.</p>
-                <p>We dig into the scrolls, swipes, searches, and silences-so we can craft work that doesn’t just look good, but lands exactly right.</p>
-                <p>From performance ads that convert to content systems that stay relevant, from brand films to websites that feel right at first click-everything we make is rooted in the real world, not guesswork.</p>
-                <p>We’ve built for fast-moving eCommerce brands, culture-led lifestyle labels, mobility apps, and purpose-first campaigns. And in every space, one thing stays the same: <br />We know how to catch the pulse-and create for it.</p>
-                <p>Smart, strategic, scroll-stopping creative. Backed by insight. Powered by taste. Designed to move people and performance.</p>
-                <p><strong>This is ColdBrew.<br />We get your audience-sometimes before they do.</strong></p>
+                <p><strong>We're ColdBrew.</strong> </p>
+                <p>A creative studio built on one belief - “the best ideas always come from the people"</p>
+                <p>We study the scrolls, swipes, and silences to see what really matters to your audience. Then we build work that doesn’t just look good but lands.</p>
+                <p>We’ve shaped eCommerce launches, culture-led campaigns, mobility brands, and lifestyle labels.</p>
+                <p>Different industries, but one common thread:</p>
+                <p>“Knowing how to meet people where they are and move them where they’ll go next”</p>
+                <p>Insight-driven, taste-backed, built for impact.</p>
+                <p><strong>This is ColdBrew.</strong></p>
             </div>
         </div>
     </section>

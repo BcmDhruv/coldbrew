@@ -94,4 +94,10 @@
   font-size: 0.9rem;
 }
 
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  cursor: pointer;
+}
 

@@ -77,9 +77,9 @@ const ContactUs = () => {
             <a href="mailto:brew@blackcoffee.media">brew@blackcoffee.media</a>
           </p>
           <div className="social-icons">
-            <a href="#"><i className="fab fa-instagram"></i></a>
+            {/* <a href="#"><i className="fab fa-instagram"></i></a>
             <a href="#"><i className="fab fa-linkedin-in"></i></a>
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
+            <a href="#"><i className="fab fa-facebook-f"></i></a> */}
           </div>
         </div>
 

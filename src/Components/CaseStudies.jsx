@@ -9,9 +9,9 @@ const CaseStudies = () => {
                 <h1>Case Studies</h1>
             </div>
             <div className="casestudy-main">
-                <p>“Coldbrew Studio is a process.</p>
-                <p>A process that is slow, careful, patient, and led with purpose.</p>
-                <p>It started with an experiment at Black Coffee Media, an idea thrown around in meetings, and a desire to create something different.</p>
+                <p>Coldbrew Studio is a process.</p>
+                <p>A process that is slow, careful, patient, and led with purpose</p>
+                <p>We believe that every brand has layers - layers of values, stories, and visuals, and it’s our job to bring them out.</p>
             </div>
         </div>
     </section>

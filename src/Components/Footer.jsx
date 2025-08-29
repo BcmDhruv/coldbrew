@@ -10,9 +10,21 @@ const Footer = () => {
     <footer className={`footer ${isAboutPage ? "about-footer" : ""}`}>
       <div className="footer-top">
         <div className="logo-col">
-          <img 
+          {/* <img 
           src={isAboutPage ? "/about-footer-logo.png" : "/footer-logo.png"}
+          alt="Cold Brew Studio Logo" className="footer-logo" /> */}
+          <Link to="#">
+          <img 
+          src="/coldbrew-footer-logo.png"
           alt="Cold Brew Studio Logo" className="footer-logo" />
+          </Link>
+          <Link to="https://blackcoffee.media/">
+          <img 
+          src="/Bcm-footer-logo.png"
+          alt="Bcm Logo" className="footer-logo" />
+          </Link>
+          
+          
         </div>
 
         <div className="footer-links">

@@ -1,6 +1,6 @@
 
 .contact-us {
-  height: 100vh;
+  height: auto;
   width: 100%;
   background: #edd6cb;
   background-image: url("data:image/svg+xml;utf8,\
@@ -35,11 +35,11 @@
 
 .contact-info h1 {
   font-family: "Playfair Display", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 400;
+  font-size: 40px;
+  font-weight: 300;
   letter-spacing: 2px;
   line-height: 1.2em;
-  margin-bottom: 0.5em;
+  /* margin-bottom: 0.5em; */
   padding-bottom: 0.5em;
   border-bottom: 2px solid #D57E56;
   display: inline-block;

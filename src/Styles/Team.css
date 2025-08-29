@@ -6,16 +6,16 @@
   /* background-image: url(/Filter2.png);
   background-size: cover; */
   background-image: url("data:image/svg+xml;utf8,\
-  <svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'>\
-  <filter id='bigpaper'>\
-  <feTurbulence type='fractalNoise' baseFrequency='0.25' numOctaves='2' seed='5'/>\
-  <feDiffuseLighting surfaceScale='3' lighting-color='rgb(220,200,180)'>\
-  <feDistantLight azimuth='135' elevation='50'/>\
+  <svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'>\
+  <filter id='crumple'>\
+  <feTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='5' seed='3'/>\
+  <feDiffuseLighting surfaceScale='1.5' lighting-color='rgb(200,170,150)'>\
+  <feDistantLight azimuth='45' elevation='55'/>\
   </feDiffuseLighting>\
   </filter>\
-  <rect width='100%' height='100%' filter='url(%23bigpaper)' opacity='0.25'/>\
+  <rect width='100%' height='100%' filter='url(%23crumple)' opacity='0.18'/>\
   </svg>");
-  background-size: 400px 400px;
+  background-size: 300px 300px;
   padding: 80px 0;
 }
 
@@ -28,9 +28,9 @@
 .team-member-heading h1 {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-size: 2.5rem;
-  letter-spacing: 0.4em;
-  line-height: 2em;
+  font-size: 40px;
+  letter-spacing: 1rem;
+  /* line-height: 2em; */
   margin-bottom: 20px;
   text-transform: uppercase;
   position: relative;
@@ -43,7 +43,7 @@
   height: 2px;
   max-width: 20em;
   background-color: #D57E56;
-  margin: 1em auto;
+  margin: 0.5em auto 1em auto;
 }
 
 .team-member-flex {
@@ -51,7 +51,7 @@
   flex-direction: column;
   gap: 4em;
   align-items: center;
-  margin: 7rem 0;
+  margin: 4rem 0;
 }
 
 .row {
@@ -83,17 +83,19 @@
 }
 
 .team-member-wrapper h3 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-family: "OpenSansCondSemiBold", sans-serif;
+  font-size: 1.4rem;
   font-weight: 600;
-  margin: 1em 0;
+  letter-spacing: 1px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
   color: #3E1F1B;
 }
 
 .team-member-wrapper p {
   font-family: "Open Sans", sans-serif;
-  font-size: 0.75rem;
-  color: #888;
+  font-size: 1rem;
+  color: #1d1c1c;
   font-weight: 400;
   line-height: 0.3em;
 }

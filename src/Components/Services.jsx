@@ -93,7 +93,7 @@ function Services() {
 
             <div className="services-cta">
                 <Link to='/case-studies'>
-                    <button className="services-btn">See Our Work</button>
+                    <button className="services-btn">Discover Our Work</button>
                 </Link>
             </div>
         </div>
