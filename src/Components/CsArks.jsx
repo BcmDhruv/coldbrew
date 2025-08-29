@@ -15,7 +15,7 @@ const CsArks = () => {
 
                         <div className="grid-title">Campaign Strategy</div>
                             <div className="grid-content">
-                            We built high-ROAS campaigns through segmented funnels and clean, product-led creatives, scaling revenue by 5x without relying on celebrity endorsements or heavy discounts.
+                            We’ve built high ROAS campaigns through segmented funnels and clean, product-led creatives, scaling revenue by 5x without relying on heavy discounts.
                             </div>
 
                         
