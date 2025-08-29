@@ -35,7 +35,7 @@ const CsYangpoo = () => {
                         </div>
 
                         <div className="grid-button">
-                            <Link to='/arks-case-study'>
+                            <Link to='/yangpoo-case-study'>
                             <button className="o-grid-btn">Explore</button>
                             </Link>
                         </div>

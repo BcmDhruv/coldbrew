@@ -46,7 +46,7 @@ const CsChalo = () => {
             </div>
 
             <div className="grid-button">
-              <Link to="/arks-case-study">
+              <Link to="/chalo-case-study">
                 <button className="o-grid-btn" >Explore</button>
               </Link>
             </div>
