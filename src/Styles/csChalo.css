@@ -19,215 +19,80 @@
   padding: 40px 0;
 }
 
-.case-study-wrapper2 {
-  display: flex;
-  height: 100%;
-  width: 100%;
-}
-
-.leftcol-cschalo {
-  width: 30%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  overflow: hidden;
-}
-
-.leftcol-cschalo img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  object-position: left center;
-}
-
-.mobile-img {
-  display: none;
-}
-
-.cs-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  row-gap: 1.2em;
-  text-align: left;
-  font-family: "Open Sans", sans-serif;
-  padding: 5em 9em;
-  font-size: 1em;
-  font-weight: 300;
-}
-
-
-.grid-title {
-  font-weight: 600;
-  font-size: 1.5em;
-}
 
 .o-grid-content {
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   color: #D57E56;
   font-weight: 500;
 }
 
-.grid-kpis {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-}
-
-
-.o-kpi-numbers {
-  display: flex;
-  gap: 1px;
-}
-.o-kpi h1 {
-  font-size: 1.6rem;
-  font-weight: 600;
-}
-.o-kpi span {
-  font-size: 1.5rem;
-  vertical-align: super;
-  font-weight: 500;
-  color: #D57E56;
-}
-
-.o-kpi p {
-  color: #D57E56;
-  font-weight: 500;
-}
-
-.grid-button {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.grid-btn {
-  padding: 10px 20px;
+.o-grid-btn {
+  font-size: 0.8rem;
+  padding: 10px 25px;
   background: transparent;
-  border: 1px solid #fff;
+  border: 2px solid #D57E56;
   color: #000;
   letter-spacing: 0.1em;
   cursor: pointer;
+
+  /* smooth animation */
+  transition: all 0.3s ease;
 }
 
-
-.rightcol-cschalo {
-  width: 70%;
-  height: 100%;
-  display: flex;
-  align-items: center;
+.o-grid-btn:hover {
+  background-color: #444;
+  border:2px solid #444;
+  color: #fff;
+  transform: scale(1.05); /* subtle grow effect */
 }
 
-
-
-
-/* chalo case study ends  */
-
-
-
-
-/* chalo case study  */
 
 @media (max-width: 1024px) {
-  .cs-grid {
-    padding: 4em 6em;
-    font-size: 0.95em;
-  }
-
-  .grid-title {
-    font-size: 1.3em;
-  }
-
   .o-grid-content {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 
-  .grid-btn {
-    padding: 9px 18px;
-    font-size: 0.9rem;
+  .o-grid-btn {
+  padding: 9px 18px;
+  font-size: 0.9rem;
   }
 }
 
 @media (max-width: 768px) {
-
-  .case-study-wrapper2 {
-    flex-direction: column;
-    gap: 1em;
-  }
-
-  .leftcol-cschalo {
-    width: 100%;
-    height: 50%;
-    justify-content: center;
-  }
-  
-  .rightcol-cschalo {
-    width: 100%;
-    height: 50%;
-
-  }
-
-  .leftcol-cschalo img {
-    object-position: center center;
-  }
-  .desktop-img {
-    display: none;
-  }
-
-  .mobile-img {
-    display: block;
-  }
-
-  .cs-grid {
-    padding: 3em 4em;
-    font-size: 0.9em;
-  }
-
-  .grid-title {
-    font-size: 1.2em;
-  }
-
   .o-grid-content {
     font-size: 1rem;
+    text-align: left;
+  }
+  .cschalo {
+    height: auto;
   }
 
-  .grid-btn {
+  
+  .o-grid-btn {
     padding: 8px 16px;
     font-size: 0.85rem;
   }
 
-  .cschalo {
-    height: auto;
-  }
 }
 
 @media (max-width: 480px) {
-
-  .cs-grid {
-    padding: 2em 2em;
-    font-size: 0.85em;
-  }
-
-  .grid-title {
-    font-size: 0.7em;
-  }
-
   .o-grid-content {
     font-size: 0.8rem;
   }
 
-  .grid-btn {
+  .o-grid-btn {
     padding: 7px 14px;
     font-size: 0.8rem;
   }
-
-  .grid-kpis {
-    gap: 1rem;
-  }
 }
 
-/* chalo case study  */
+
+
+
+
+
+
+
 
 

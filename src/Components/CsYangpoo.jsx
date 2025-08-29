@@ -5,14 +5,8 @@ import { Link } from 'react-router-dom'
 const CsYangpoo = () => {
   return (
      <section className="csyangpoo">
-            <div className="case-study-wrapper2">
-                <div className="leftcol-csyangpoo">
-                    <img className="desktop-img" src="yangpoo-half.webp" alt="Case study image" />
-                    <img className="mobile-img" src="yangpoo.webp" alt="" />
-                </div>
-
-
-                <div className="rightcol-csyangpoo">
+            <div className="case-study-wrapper">
+                <div className="leftcol">
                     <div className="cs-grid">
                         <div className="grid-title">About Brand</div>
                             <div className="o-grid-content">
@@ -26,28 +20,32 @@ const CsYangpoo = () => {
 
                         
                         <div className="grid-kpis">
-                            <div className="o-kpi">
-                                <div className="o-kpi-numbers">
+                            {/* <div className="kpi">
+                                <div className="kpi-numbers">
                                 <h1>30</h1><span>%</span><br />
                                 </div>
                                 <p>Increase<br />in engagement</p>
                             </div>
-                            <div className="o-kpi">
-                                <div className="o-kpi-numbers">
+                            <div className="kpi">
+                                <div className="kpi-numbers">
                                 <h1>70</h1><span>%</span><br />
                                 </div>
                                 <p>Increase<br />in revenue</p>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="grid-button">
-                            <Link to="/Yangpoo-case-study">
-                            <button className="grid-btn">Explore</button>
+                            <Link to='/arks-case-study'>
+                            <button className="o-grid-btn">Explore</button>
                             </Link>
                         </div>
                     </div>
                 </div>
 
+                <div className="rightcol">
+                    <img className="desktop-img" src="yangpoo-half.webp" alt="Case study image" />
+                    <img className="mobile-img" src="yangpoo.webp" alt="case study image" />
+                </div>
             </div>
         </section>
   )

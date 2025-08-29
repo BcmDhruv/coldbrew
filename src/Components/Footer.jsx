@@ -6,6 +6,12 @@ import "../Styles/Footer.css"
 const Footer = () => {
   const location = useLocation();
   const isAboutPage = location.pathname === "/about";
+  const handleLogoClick = (e) => {
+    if (location.pathname === "/") {
+      e.preventDefault(); // stop reload
+      window.scrollTo({ top: 0, behavior: "smooth" }); // smooth scroll up
+    }
+  };
   return (
     <footer className={`footer ${isAboutPage ? "about-footer" : ""}`}>
       <div className="footer-top">
@@ -13,9 +19,9 @@ const Footer = () => {
           {/* <img 
           src={isAboutPage ? "/about-footer-logo.png" : "/footer-logo.png"}
           alt="Cold Brew Studio Logo" className="footer-logo" /> */}
-          <Link to="#">
+          <Link to="/" onClick={handleLogoClick}>
           <img 
-          src="/coldbrew-footer-logo.png"
+          src={isAboutPage ? "/about-footer-logo.png" :"/coldbrew-footer-logo.png"}
           alt="Cold Brew Studio Logo" className="footer-logo" />
           </Link>
           <Link to="https://blackcoffee.media/">

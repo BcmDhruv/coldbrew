@@ -6,7 +6,7 @@ const CsArks = () => {
   return (
         <section className="csarks">
             <div className="case-study-wrapper">
-                <div className="leftcol-csarks">
+                <div className="leftcol">
                     <div className="cs-grid">
                         <div className="grid-title">About Brand</div>
                             <div className="grid-content">
@@ -20,7 +20,7 @@ const CsArks = () => {
 
                         
                         <div className="grid-kpis">
-                            <div className="kpi">
+                            {/* <div className="kpi">
                                 <div className="kpi-numbers">
                                 <h1>30</h1><span>%</span><br />
                                 </div>
@@ -31,7 +31,7 @@ const CsArks = () => {
                                 <h1>70</h1><span>%</span><br />
                                 </div>
                                 <p>Increase<br />in revenue</p>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="grid-button">
@@ -42,7 +42,7 @@ const CsArks = () => {
                     </div>
                 </div>
 
-                <div className="rightcol-csarks">
+                <div className="rightcol">
                     <img className="desktop-img" src="arks-half.webp" alt="Case study image" />
                     <img className="mobile-img" src="arks.webp" alt="case study image" />
                 </div>

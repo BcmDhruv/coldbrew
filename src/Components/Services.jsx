@@ -14,9 +14,9 @@ function Services() {
             
             <div className="services-flex">
                 <div className="row">
-                    <div className="circle circle-1">
+                    <div className="circle">
                         <div className="flip-inner">
-                            <div className="flip-front">
+                            <div className="flip-front circle-1">
                             High-Impact Brand<br />Films & Campaigns
                             </div>
                             <div className="flip-back">
@@ -24,9 +24,10 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="circle circle-2">
+
+                    <div className="circle">
                         <div className="flip-inner">
-                            <div className="flip-front">
+                            <div className="flip-front circle-2">
                             Always-On<br />Content Creation
                             </div>
                             <div className="flip-back">
@@ -34,9 +35,9 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="circle circle-3">
+                    <div className="circle">
                         <div className="flip-inner">
-                            <div className="flip-front">
+                            <div className="flip-front circle-3">
                             Creative<br />Performance Ads
                             </div>
                             <div className="flip-back">
@@ -46,9 +47,9 @@ function Services() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="circle circle-4">
+                    <div className="circle">
                         <div className="flip-inner">
-                            <div className="flip-front">
+                            <div className="flip-front circle-4">
                             Brand<br />Identity Building
                             </div>
                             <div className="flip-back">
@@ -56,9 +57,9 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="circle circle-5">
+                    <div className="circle">
                         <div className="flip-inner">
-                            <div className="flip-front">
+                            <div className="flip-front circle-5">
                             Adaptive & AI-<br />Assisted Creativity
                             </div>
                             <div className="flip-back">
@@ -68,9 +69,9 @@ function Services() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="circle circle-6">
+                    <div className="circle">
                         <div className="flip-inner">
-                            <div className="flip-front">
+                            <div className="flip-front circle-6">
                             Social Media<br />Design & Strategy
                             </div>
                             <div className="flip-back">
@@ -78,9 +79,9 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="circle circle-7">
+                    <div className="circle">
                         <div className="flip-inner">
-                            <div className="flip-front">
+                            <div className="flip-front circle-7">
                             Website Design
                             </div>
                             <div className="flip-back">
