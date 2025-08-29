@@ -53,7 +53,7 @@ function Services() {
                             Brand<br />Identity Building
                             </div>
                             <div className="flip-back">
-                            Authentic storytelling that blends your brand’s voice, visuals, and vibe.
+                            Distinctive identities blending your voice, visuals, and vibe.
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ function Services() {
                             Website Design
                             </div>
                             <div className="flip-back">
-                            Full-spectrum narratives - planned, filmed, and delivered with precision.
+                            Web experiences that balance beauty, clarity, and impact.
                             </div>
                         </div>
                     </div>
