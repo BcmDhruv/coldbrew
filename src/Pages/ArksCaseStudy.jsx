@@ -42,7 +42,7 @@ const ArksCaseStudy = () => {
           <div className="objective-wrapper">
             <h2>Goals</h2>
             <p>
-              Aligned to thatWhat was the campaign strategy and how was the creative strategy aligned to thatWhat was the campaign strategy and how was the creative strategy aligned to thatWhat was the campaign strategy and how was the creative strategy aligned to What was the campaign strategy and how was the creative strategy aligned to that
+              Drive consistent daily revenue and scale profitably while maintaining strong ROAS and preserving the brand’s premium, minimalist tone. The goal was growth without compromising ARKS’ identity.
             </p>
           </div>
         </section>
@@ -66,21 +66,20 @@ const ArksCaseStudy = () => {
             </div>
             <div>
               <p>
-                We didn't rely on Ranbir's face to carry the narrative but relied on visuals that built brand memory and product trust on their own. In fact, while RK-led creatives performed well, some of our highest ROAS came from product-led assets with clean, minimal compositions.
+                The strongest results came from product-led visuals with clean, minimal compositions:
               </p>
               <ul>
                 <li>
-                  <strong>Creatives with strong contrast between foreground and background (like red-on-white or white-on-red) consistently led in performance.</strong>
+                  <strong>High-contrast creatives</strong> (red-on-white, white-on-red) consistently outperformed.
                 </li>
                 <li>
-                  <strong>Accessories and footwear creatives quietly pulled some of the strongest ROAS and lowest CPMs, especially when served in story format.</strong>
+                  <strong>Accessories and footwear</strong> delivered the best ROAS and lowest CPMs, especially in story ads.
                 </li>
                 <li>
-                  <strong>Videos with minimal cuts and a healthy amount of negative space outperformed collage-style or heavily edited formats.</strong>
+                  <strong>Minimal-cut videos with negative space</strong> beat collage-heavy edits.
                 </li>
               </ul>
-              <p>Over time, patterns began to emerge:</p>
-              <p>The team hustled to deliver maximum creative volume at launch, and that momentum gave us the early edge we needed to start scaling performance without sacrificing the brand feel.</p>
+              <p>By doubling down on these formats, we scaled performance without losing brand feel.</p>
             </div>
           </div>
         </section>
@@ -93,11 +92,10 @@ const ArksCaseStudy = () => {
         <div className='impact-wrappper'>
         <p>Without leaning on heavy offers or celebrity influence, the brand was able to:</p>
         <ul>
-          <li><strong>Hit and exceed monthly revenue goals</strong></li>
-          <li><strong>Maintain a high ROAS across cold and warm audiences</strong></li>
-          <li><strong>Establish early product-category winners for long-term media planning</strong></li>
+          <li><strong>Exceed monthly revenue targets</strong></li>
+          <li><strong>Maintain high ROAS across cold and warm audiences</strong></li>
+          <li><strong>Identify early category winners for long-term planning</strong></li>
         </ul>
-        <p>If you’re building a lifestyle brand that values design, tone, and consistency and still wants to scale profitably - Let's talk.</p>
         <Link to="/#contact">
           <button className="cta-button">BOOK DISCOVERY CALL</button>
         </Link>
@@ -107,7 +105,7 @@ const ArksCaseStudy = () => {
   ];
 
   const arksHeroData = {
-  imageSrc: "/Arks/redcap.png",
+  imageSrc: "/Arks/Arks-Hero.webp",
   title: "ARKS",
   sectors: "E-commerce, Consumer",
   stats: (
@@ -129,18 +127,15 @@ const ArksCaseStudy = () => {
   rightContent: (
     <>
       <p className="intro">
-        ARKS is a lifestyle clothing brand owned by Ranbir Kapoor and it's built around the principles of minimalism, comfort, and quiet luxury. Every product in the lineup is made to elevate everyday essentials through clean design and a calm, intentional aesthetic.
-        When the team first approached us, they had clarity on what the brand stood for - quiet confidence, premium quality, and simplicity done right. What they needed was a creative and performance partner who could bring that vision to life, at scale.
-        When we pitched our approach, the ARKS team was aligned from the first presentation.
-        But winning the pitch was just the beginning.
+        ARKS is a lifestyle brand by Ranbir Kapoor, rooted in minimalism, comfort, and quiet luxury. Their products elevate everyday essentials with clean design and intentional aesthetics. When they came to us, the vision was clear - quiet confidence, premium quality, simplicity done right. What they needed was a performance partner to bring that vision to life, at scale.
       </p>
 
       <h3>Campaign Strategy</h3>
       <p className="objective">
-        The objective was clear: drive consistent daily revenue while maintaining a strong ROAS without diluting the brand's tone.
+        The goal: consistent daily revenue with strong ROAS, while staying true to the brand’s tone.
       </p>
       <p>
-        Instead of mass campaigns, we focused on structured segmentation that let us scale with clarity.
+        We replaced mass campaigns with structured segmentation:
       </p>
       <ul>
         <li>Gender-based targeting</li>
@@ -148,7 +143,7 @@ const ArksCaseStudy = () => {
         <li>Funnel stages (cold, warm, hot audiences)</li>
       </ul>
       <p>
-        This structure helped us test, learn, and double down on what worked across both creative and audience behavior while keeping the performance engine lean and sharp.
+        This approach let us test, learn, and double down on what worked - keeping both creative and performance sharp.
       </p>
     </>
   )

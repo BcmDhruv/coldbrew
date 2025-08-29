@@ -6,6 +6,7 @@ import ServiceProvided from '../Components/ServiceProvided';
 import AdsCreated from '../Components/AdsCreated';
 import '../Styles/CaseStudyPages/YangpooCaseStudy.css'
 import { Link } from 'react-router-dom';
+import ArksHero from '../Components/ArksHero';
 
 const YangpooCaseStudy = () => {
 
@@ -42,7 +43,7 @@ const YangpooCaseStudy = () => {
             <div className="objective-wrapper">
                 <h2>Goals</h2>
                 <p>
-                Aligned to thatWhat was the campaign strategy and how was the creative strategy aligned to thatWhat was the campaign strategy and how was the creative strategy aligned to thatWhat was the campaign strategy and how was the creative strategy aligned to What was the campaign strategy and how was the creative strategy aligned to that
+                Attract the right high-intent learners for Yangpoo’s executive programs - young individuals from family businesses and mid-career professionals - by building funnels that spoke directly to their distinct goals.
                 </p>
             </div>
             </section>
@@ -66,21 +67,9 @@ const YangpooCaseStudy = () => {
                 </div>
                 <div>
                 <p>
-                    We didn't rely on Ranbir's face to carry the narrative but relied on visuals that built brand memory and product trust on their own. In fact, while RK-led creatives performed well, some of our highest ROAS came from product-led assets with clean, minimal compositions.
+                    Both funnels were optimized for lead quality and paired with human-centered creative that emphasized clarity, confidence, and actionable storytelling. This shift moved Yangpoo away from jargon-heavy ads and into persona-driven campaigns that triggered real engagement.
                 </p>
-                <ul>
-                    <li>
-                    <strong>Creatives with strong contrast between foreground and background (like red-on-white or white-on-red) consistently led in performance.</strong>
-                    </li>
-                    <li>
-                    <strong>Accessories and footwear creatives quietly pulled some of the strongest ROAS and lowest CPMs, especially when served in story format.</strong>
-                    </li>
-                    <li>
-                    <strong>Videos with minimal cuts and a healthy amount of negative space outperformed collage-style or heavily edited formats.</strong>
-                    </li>
-                </ul>
-                <p>Over time, patterns began to emerge:</p>
-                <p>The team hustled to deliver maximum creative volume at launch, and that momentum gave us the early edge we needed to start scaling performance without sacrificing the brand feel.</p>
+                
                 </div>
             </div>
             </section>
@@ -102,11 +91,63 @@ const YangpooCaseStudy = () => {
         ),
         },
     ];
+
+      const arksHeroData = {
+  imageSrc: "/Yangpoo/Yangpoo-Hero.webp",
+  title: "Yangpoo",
+  sectors: "Education",
+  stats: (
+    <>
+      <div className="stat">
+        <h2>30<span>%</span></h2>
+        <p>Increase<br />in engagement</p>
+      </div>
+      <div className="stat">
+        <h2>70<span>%</span></h2>
+        <p>Increase<br />in revenue</p>
+      </div>
+      <div className="stat">
+        <h2>100<span>+</span></h2>
+        <p>Creatives<br />delivered</p>
+      </div>
+    </>
+  ),
+  rightContent: (
+    <>
+    <h3>Introduction:</h3>
+      <p className="intro">
+        Yangpoo Executive Education is an edtech brand focused on bridging the gap between academia and real-world business readiness. Through its specialized programs and partnerships, Yangpoo helps learners transition into leadership roles and prepare for high-stakes business decisions
+      </p>
+
+      <h3>Campaign Strategy</h3>
+      <p className="objective">
+        We built two completely distinct, intent-driven funnels:
+      </p>
+      <p>
+        <strong>Family Business Programme Funnel</strong> 
+      </p>
+      <ul>
+        <li>Targeted people from business families using interest layering and behavioral signals</li>
+        <li>Ad messaging revolved around identity and confidence: “Take the reins, “Lead your legacy.”, Enter the family business on your terms.”</li>
+        <li>The landing flow reinforced that support to help them make the decision.</li>
+      </ul>
+      <p>
+        <strong>Hybrid PGDM Funnel</strong> 
+      </p>
+      <ul>
+        <li>Focused on professionals in mid-senior roles across industries</li>
+        <li>Messaging was all about bridging the gap: “From working professional to strategic leader”, “Your next move deserves the right backing”.</li>
+      </ul>
+      
+    </>
+  )
+  };
     
 
   return (
     
     <div className='yp-cs-bg'>
+    <ArksHero heroData={arksHeroData} />
     <ServiceProvided image={serviceImg} />
     <AdsCreated images = {imageUrls} />
     <FAQs faqs={faqs} />

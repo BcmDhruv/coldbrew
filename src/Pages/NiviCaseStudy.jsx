@@ -43,7 +43,7 @@ const faqs = [
         <div className="objective-wrapper">
             <h2>Goals</h2>
             <p>
-            Aligned to thatWhat was the campaign strategy and how was the creative strategy aligned to thatWhat was the campaign strategy and how was the creative strategy aligned to thatWhat was the campaign strategy and how was the creative strategy aligned to What was the campaign strategy and how was the creative strategy aligned to that
+            Enable women in low-trust, culturally sensitive regions to ask personal health questions safely and privately. The goal was to spark meaningful, stigma-free conversations without forcing immediate action.
             </p>
         </div>
         </section>
@@ -67,21 +67,8 @@ const faqs = [
             </div>
             <div>
             <p>
-                We didn't rely on Ranbir's face to carry the narrative but relied on visuals that built brand memory and product trust on their own. In fact, while RK-led creatives performed well, some of our highest ROAS came from product-led assets with clean, minimal compositions.
+                The campaign led to a significant spike in high-intent engagement and a noticeable increase in WhatsApp chatbot conversations within days of launch.
             </p>
-            <ul>
-                <li>
-                <strong>Creatives with strong contrast between foreground and background (like red-on-white or white-on-red) consistently led in performance.</strong>
-                </li>
-                <li>
-                <strong>Accessories and footwear creatives quietly pulled some of the strongest ROAS and lowest CPMs, especially when served in story format.</strong>
-                </li>
-                <li>
-                <strong>Videos with minimal cuts and a healthy amount of negative space outperformed collage-style or heavily edited formats.</strong>
-                </li>
-            </ul>
-            <p>Over time, patterns began to emerge:</p>
-            <p>The team hustled to deliver maximum creative volume at launch, and that momentum gave us the early edge we needed to start scaling performance without sacrificing the brand feel.</p>
             </div>
         </div>
         </section>
@@ -97,8 +84,7 @@ const faqs = [
               <li><strong>Improved cost efficiency by 38%, making impact sustainable at scale</strong></li>
               <li><strong>Gave women across conservative regions a private, accessible space to understand their health better.</strong></li>
             </ul>
-          <p>If you're working in the impact space and want to build systems that drive real conversations</p>
-          <p>Let's talk.</p>
+        
             <Link to="/#contact">
               <button className="cta-button">BOOK DISCOVERY CALL</button>
             </Link>
@@ -110,7 +96,7 @@ const faqs = [
   const arksHeroData = {
   imageSrc: "/Nivi/Nivi-Hero.webp",
   title: "NIVI",
-  sectors: "E-commerce, Consumer",
+  sectors: "Healthcare",
   stats: (
     <>
       <div className="stat">
@@ -133,9 +119,11 @@ const faqs = [
       <h3>The Problem</h3>
       <p className="objective">
         Impact-led campaigns operate in a completely different universe compared to e-commerce.
-        You're not selling a product. You're asking someone, often in underserved, low-trust, or culturally sensitive environments to start a conversation. That too, about things they've been conditioned not to ask.
       </p>
       <p>
+        You're not selling a product. You're asking someone, often in underserved, low-trust, or culturally sensitive environments to start a conversation. That too, about things they've been conditioned not to ask.
+      </p>
+      <p style={{marginTop: '10px'}}>
         That means:
       </p>
       <ul>
