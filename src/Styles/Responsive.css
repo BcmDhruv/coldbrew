@@ -455,7 +455,9 @@
     width: 12em;
   }
 
- 
+ .footer-col {
+  min-width:9em
+ }
 
   .footer-links {
     gap: 1.2rem;
