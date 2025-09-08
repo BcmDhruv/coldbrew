@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const CsArks = () => {
   return (
-        <section className="csarks">
+        <section className="csarks" id='csarks'>
             <div className="case-study-wrapper">
                 <div className="leftcol">
                     <div className="cs-grid">

@@ -100,16 +100,16 @@ const faqs = [
   stats: (
     <>
       <div className="stat">
-        <h2>30<span>%</span></h2>
-        <p>Increase<br />in engagement</p>
+        <h2>43<span>%</span></h2>
+        <p>Improved<br />conversion rate</p>
       </div>
       <div className="stat">
-        <h2>70<span>%</span></h2>
-        <p>Increase<br />in revenue</p>
+        <h2>99<span>%</span></h2>
+        <p>Grew<br />active account</p>
       </div>
       <div className="stat">
-        <h2>100<span>+</span></h2>
-        <p>Creatives<br />delivered</p>
+        <h2>38<span>%</span></h2>
+        <p>Improved<br />cost per message</p>
       </div>
     </>
   ),

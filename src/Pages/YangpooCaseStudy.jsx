@@ -56,9 +56,9 @@ const YangpooCaseStudy = () => {
             <section className="process-accordian">
             <div className="process-wrapper">
                 <p>Every creative we made followed three core principles:</p>
-                <div className="process-images">
+                <div className="process-images-y">
                 {processImages.map((img, index) => (
-                    <div key={index} className="process-card">
+                    <div key={index} className="process-card-y">
                     <div className="process-card-inner">
                         <img src={img} alt={`process-card-${index + 1}`} />
                     </div>
@@ -99,16 +99,16 @@ const YangpooCaseStudy = () => {
   stats: (
     <>
       <div className="stat">
-        <h2>30<span>%</span></h2>
-        <p>Increase<br />in engagement</p>
+        <h2>100<span>%</span></h2>
+        <p>Increase<br />in total leads</p>
       </div>
       <div className="stat">
-        <h2>70<span>%</span></h2>
-        <p>Increase<br />in revenue</p>
+        <h2>50<span>%</span></h2>
+        <p>Lesser<br />cost per lead</p>
       </div>
       <div className="stat">
-        <h2>100<span>+</span></h2>
-        <p>Creatives<br />delivered</p>
+        <h2>50<span>%</span></h2>
+        <p>Increase<br />in total application</p>
       </div>
     </>
   ),

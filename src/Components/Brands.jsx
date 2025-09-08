@@ -16,24 +16,34 @@ const Brands = () => {
         <div className="brands-main">
           <div class="marquee-slider">
             <div class="marquee-track">
+              <img src="/logos/arks.png" alt="arks logo" />
+              <img src="/logos/chalo.png" alt="chalo logo" />
+              <img src="/logos/complimento.png" alt="complimento logo" />
+              <img src="/logos/fratelli.png" alt="fratelli logo" />
+              <img src="/logos/fusio.png" alt="fusio logo" />
+              <img src="/logos/gs.png" alt="gs logo" />
               <img src="/logos/nivi.png" alt="nivi logo" />
+              <img src="/logos/Preferedsquare.png" alt="preferedsquare logo" />
               <img src="/logos/sharechat.png" alt="sharechat logo" />
+              <img src="/logos/shvet.png" alt="shvet logo" />
               <img src="/logos/spjimr.png" alt="spjimr logo" />
+              <img src="/logos/sploot.png" alt="sploot logo" />
+              <img src="/logos/ubiqtern.png" alt="ubiqtern logo" />
               <img src="/logos/weschool.png" alt="weschool logo" />
               <img src="/logos/arks.png" alt="arks logo" />
               <img src="/logos/chalo.png" alt="chalo logo" />
+              <img src="/logos/complimento.png" alt="complimento logo" />
+              <img src="/logos/fratelli.png" alt="fratelli logo" />
+              <img src="/logos/fusio.png" alt="fusio logo" />
+              <img src="/logos/gs.png" alt="gs logo" />
               <img src="/logos/nivi.png" alt="nivi logo" />
+              <img src="/logos/Preferedsquare.png" alt="preferedsquare logo" />
               <img src="/logos/sharechat.png" alt="sharechat logo" />
+              <img src="/logos/shvet.png" alt="shvet logo" />
               <img src="/logos/spjimr.png" alt="spjimr logo" />
+              <img src="/logos/sploot.png" alt="sploot logo" />
+              <img src="/logos/ubiqtern.png" alt="ubiqtern logo" />
               <img src="/logos/weschool.png" alt="weschool logo" />
-              <img src="/logos/arks.png" alt="arks logo" />
-              <img src="/logos/chalo.png" alt="chalo logo" />
-              <img src="/logos/nivi.png" alt="nivi logo" />
-              <img src="/logos/sharechat.png" alt="sharechat logo" />
-              <img src="/logos/spjimr.png" alt="spjimr logo" />
-              <img src="/logos/weschool.png" alt="weschool logo" />
-              <img src="/logos/arks.png" alt="arks logo" />
-              <img src="/logos/chalo.png" alt="chalo logo" />
             </div>
           </div>
 
