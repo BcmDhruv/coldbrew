@@ -57,9 +57,9 @@
 
 /* Case Study Section Starts  */
 @media (min-width: 1025px) {
-  .casestudy {
+  /* .casestudy {
       min-height: 100vh;
-  }
+  } */
 }
 @media (max-width: 1024px){
   .casestudy-heading h1 {
