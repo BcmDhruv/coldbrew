@@ -23,7 +23,7 @@ function Hero() {
             </video>
             <div className="video-overlay"></div>
             <div className="hero-main">
-                <h1>Creative That Knows What Clicks</h1>
+                <h1>Stories That Sell</h1>
                 <h3>Built for brands that want more than just likes.</h3>
                 <Link to='/case-studies'>
                 <button className="hero-btn">Discover Our Work</button>
